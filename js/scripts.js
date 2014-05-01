@@ -5,5 +5,5 @@
  */
 
 $(document).ready( function(){
-                $('#hero-slide').jqFancyTransitions({ width: 615, height: 133, strips: 5, delay: 3000, links: true})
+                $('#hero-unit').jqFancyTransitions({ width: 1200, height: 260, strips: 6, delay: 4000, links: true})
             });

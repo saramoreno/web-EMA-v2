@@ -5,6 +5,8 @@
 header {
   background: $secondaryBg;
 
+  @include box-shadow(1px 0 1px $text);
+
   .logo {
     width: 10%;
 

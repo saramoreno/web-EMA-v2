@@ -69,6 +69,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/img6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 410809,
+		"inputAbbreviatedPath": "\/images\/img6.jpg",
+		"outputAbbreviatedPath": "\/images\/img6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logo-EMA.png": {
 		"fileType": 32768,
 		"ignore": 0,

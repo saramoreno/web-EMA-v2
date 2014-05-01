@@ -12,31 +12,76 @@
       %script{src:"js/dependencies/html5shiv.js"}
 
     %link{href: "stylesheets/screen.css", rel: 'stylesheet'}
-    %link{href: "stylesheets/screen.css", rel: 'stylesheet'}
-    %link{href: "stylesheets/bootstrap.css", rel: 'stylesheet'}
+    %link{href: "stylesheets/font-awesome.min.css", rel: 'stylesheet'}
+
 
   %body
-    .container-fluid
-      %header 
-        .row
-          %nav.navbar.navbar-default
-            .container-fluid
-              .navbar-header
-              %ul.nav.navbar-nav
-                %li.active
-                  %a{href:"default.html"} Presentación
-                %li
-                  %a{href:"inscripción.html"} Inscripción y matrícula
-                %li
-                  %a{href:"inscripción.html"} Becas y tasas
-                %li
-                  %a{href:"inscripción.html"} Asignaturas
-                %li
-                  %a{href:"inscripción.html"} Horarios
-                %li
-                  %a{href:"inscripción.html"} Contacto
-                %li
-                  %a{href:"inscripción.html"} FAQ
+    %header
+      .wrapper
+        .logo.inline-content> 
+          %a{href:"default.html"} 
+            %img{src:"images/logo.png", alt:"logo"}/ 
+        %nav.main-nav.inline-content>
+          %ul
+            %li.active.inline-content
+              %a{href:"default.html"} Presentación
+            %li.inline-content
+              %a{href:"inscripcion.html"} Inscripción y matrícula
+            %li.inline-content
+              %a{href:"becas.html"} Becas y tasas
+            %li.inline-content
+              %a{href:"asignaturas.html"} Asignaturas
+            %li.inline-content
+              %a{href:"horarios.html"} Horarios
+            %li.inline-content
+              %a{href:"faq.html"} FAQ
+            %li.inline-content
+              %a{href:"contacto.html"} Contacto
+    .main-content
+      .wrapper
+        %section 
+          .hero-unit.first-image
+            %h1.right Título Propio Experto en el Mundo Actual: Claves y Desafíos
+        %section 
+          %article 
+            %h2.big-heading Objetivos
+            %p El Título Propio "Experto en el Mundo Actual: Claves y desafíos" tiene como objetivo facilitar la comprensión de la compleja y cambiante realidad social, política, económica y cultural de las sociedades contemporáneas. A través de una formación interdisciplinar e integrada pretendemos profundizar y actualizar los conocimientos de los estudiantes con la finalidad de proporcionarles herramientas que les permitan comprender los retos que la globalización está generando. Entendido como un programa que contribuye a la formación a lo largo de toda la vida, pretendemos actualizar y dinamizar el conocimiento con la finalidad de que los estudiantes adquieran las competencias necesarias para potenciar la interacción social, la utilización de las nuevas herramientas de aprendizaje y la autonomía personal.
+
+          %article 
+            %p El programa que hemos diseñado un grupo de profesores de diferentes áreas de conocimiento de esta Universidad, con experiencia en enseñanza a los mayores, pretende presentar a nuestros posibles estudiantes un título coherente que posibilite la reflexión y actualice sus conocimientos generando herramientas que le permitan afrontar los grandes y cambiantes retos del Mundo Actual.
+
+          %article 
+            %h2.big-heading Estructura
+            %p El Título se divide en tres módulos que duran un año académico. En cada uno de ellos se ofrecen asignaturas obligatorias y optativas, de modo que el estudiante puede cursar de dos a cuatro asignaturas por curso (una o dos obligatorias y una o dos optativas).
+
+       
+    %footer
+      .wrapper
+        .logo-uam.inline-content>
+          %a{href:"https://www.uam.es"}  
+            %img{src:"images/logo-uam.png", :alt => "uam"}/ 
+        %ul.complementary-info.inline-content>
+          %li
+            %h4 Título Propio Experto en el Mundo Actual: Claves y Desafios
+          %li
+            %i.fa.fa-map-marker.inline-content 
+            %p.inline-content Centro de Estudios de Postgrado, planta 2 aula 1
+          %li
+            %i.fa.fa-envelope
+            %a{href:"mailto:mundoactual@uam.es"} mundoactual@uam.es
+          %li.inline-content
+            %i.fa.fa-phone.inline-content
+            %p.inline-content 91 4976526
+
+  //Scripts
+  //%script{src:"js/jquery-1.10.2.min.js"} 
+  //%script{src:"js/jqFancyTransitions.1.8.min.js"} 
+  //%script{src:"js/scripts.js"} 
+
+
+
+
+
 
 
 

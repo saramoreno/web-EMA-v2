@@ -5,9 +5,6 @@
 
 @import "compass/reset";
 
-//Bootstrap
-@import "bootstrap/bootstrap";
-
 //globals
 
 @import "globals/settings";
@@ -23,5 +20,11 @@
 @import "base/normalize";
 
 //Objects
+
+@import "objects/hero";
+@import "objects/footer";
+@import "objects/header";
+
+
 
 

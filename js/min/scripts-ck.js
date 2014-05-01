@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#hero-slide").jqFancyTransitions({width:615,height:133,strips:5,delay:3e3,links:!0})});

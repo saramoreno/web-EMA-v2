@@ -1,0 +1,38 @@
+/*------------------------------------------*\
+    HEADER
+\*------------------------------------------*/
+
+header {
+  background: $secondaryBg;
+
+  .logo {
+    width: 10%;
+
+    img {
+    max-width: 100%;
+  }
+} 
+
+  a {
+    color: #fff;
+    padding: .75rem;
+  }
+
+  .main-nav {
+    width: 90%;
+    text-align: right;
+
+    a {
+      font-size: .85rem;
+      font-weight: 700;
+
+    &:hover {
+      background: darken($secondaryBg, 10%);
+      }
+    }
+  }
+}
+
+.active a {
+  color: darken($secondaryBg, 20%);
+}

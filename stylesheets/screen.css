@@ -632,3 +632,25 @@ header .main-nav a:hover {
 .active a {
   color: #003f23;
 }
+
+/*------------------------------------------*\
+    text box
+\*------------------------------------------*/
+/* line 5, ../sass/objects/_text-box.scss */
+.text-box {
+  -webkit-box-shadow: 1px 1 1px #65666b;
+  -moz-box-shadow: 1px 1 1px #65666b;
+  box-shadow: 1px 1 1px #65666b;
+}
+/* line 8, ../sass/objects/_text-box.scss */
+.text-box h3, .text-box p {
+  padding: 1rem 0;
+}
+/* line 12, ../sass/objects/_text-box.scss */
+.text-box i {
+  color: #00a55b;
+}
+/* line 16, ../sass/objects/_text-box.scss */
+.text-box a {
+  display: inline-block;
+}

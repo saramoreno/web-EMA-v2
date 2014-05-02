@@ -626,9 +626,13 @@ header .main-nav a {
 /* line 31, ../sass/objects/_header.scss */
 header .main-nav a:hover {
   background: #00723f;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
 }
 
-/* line 38, ../sass/objects/_header.scss */
+/* line 39, ../sass/objects/_header.scss */
 .active a {
   color: #003f23;
 }
@@ -638,19 +642,44 @@ header .main-nav a:hover {
 \*------------------------------------------*/
 /* line 5, ../sass/objects/_text-box.scss */
 .text-box {
-  -webkit-box-shadow: 1px 1 1px #65666b;
-  -moz-box-shadow: 1px 1 1px #65666b;
-  box-shadow: 1px 1 1px #65666b;
+  border: 1px solid #e7e7e8;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  padding: 1.25rem;
+  -webkit-box-shadow: 1px 2px 2px #e7e7e8;
+  -moz-box-shadow: 1px 2px 2px #e7e7e8;
+  box-shadow: 1px 2px 2px #e7e7e8;
 }
-/* line 8, ../sass/objects/_text-box.scss */
-.text-box h3, .text-box p {
-  padding: 1rem 0;
+/* line 14, ../sass/objects/_text-box.scss */
+.text-box p {
+  padding: 0 0 1.25rem 1.7rem;
 }
-/* line 12, ../sass/objects/_text-box.scss */
+/* line 18, ../sass/objects/_text-box.scss */
+.text-box h3 {
+  padding-bottom: 1rem;
+  font-weight: 200;
+}
+/* line 23, ../sass/objects/_text-box.scss */
 .text-box i {
   color: #00a55b;
 }
-/* line 16, ../sass/objects/_text-box.scss */
+/* line 27, ../sass/objects/_text-box.scss */
 .text-box a {
   display: inline-block;
+  width: 100%;
+  padding: .7rem .5rem;
+}
+/* line 32, ../sass/objects/_text-box.scss */
+.text-box a:hover {
+  background-color: #e7e7e8;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+}
+/* line 36, ../sass/objects/_text-box.scss */
+.text-box a i {
+  color: #65666b;
 }

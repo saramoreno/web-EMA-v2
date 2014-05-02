@@ -30,6 +30,7 @@ header {
 
     &:hover {
       background: darken($secondaryBg, 10%);
+      @include border-radius (5px);
       }
     }
   }

@@ -308,7 +308,7 @@ h3, .gamma {
 .big-heading {
   font-size: 2rem;
   font-weight: 200;
-  margin: 1.5rem 0 2rem 0;
+  margin: 2rem 0 2rem 0;
 }
 
 /* line 41, ../sass/base/_headings.scss */
@@ -641,7 +641,7 @@ header .main-nav a:hover {
     text box
 \*------------------------------------------*/
 /* line 5, ../sass/objects/_text-box.scss */
-.text-box {
+.text-box, .normal-table {
   border: 1px solid #e7e7e8;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -653,26 +653,26 @@ header .main-nav a:hover {
   box-shadow: 1px 2px 2px #e7e7e8;
 }
 /* line 14, ../sass/objects/_text-box.scss */
-.text-box p {
+.text-box .pl, .normal-table .pl {
   padding: 0 0 1.25rem 1.7rem;
 }
 /* line 18, ../sass/objects/_text-box.scss */
-.text-box h3 {
+.text-box h3, .normal-table h3 {
   padding-bottom: 1rem;
   font-weight: 200;
 }
 /* line 23, ../sass/objects/_text-box.scss */
-.text-box i {
+.text-box i, .normal-table i {
   color: #00a55b;
 }
 /* line 27, ../sass/objects/_text-box.scss */
-.text-box a {
+.text-box a, .normal-table a {
   display: inline-block;
   width: 100%;
   padding: .7rem .5rem;
 }
 /* line 32, ../sass/objects/_text-box.scss */
-.text-box a:hover {
+.text-box a:hover, .normal-table a:hover {
   background-color: #e7e7e8;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -680,6 +680,38 @@ header .main-nav a:hover {
   /* stops bg color from leaking outside the border: */
 }
 /* line 36, ../sass/objects/_text-box.scss */
-.text-box a i {
+.text-box a i, .normal-table a i {
   color: #65666b;
+}
+
+/* line 43, ../sass/objects/_text-box.scss */
+.header-box {
+  border-bottom: 1px solid #00a55b;
+}
+/* line 47, ../sass/objects/_text-box.scss */
+.header-box h2 {
+  margin: 0;
+}
+
+/*------------------------------------------*\
+    TABLES
+\*------------------------------------------*/
+/* line 5, ../sass/objects/_tables.scss */
+.normal-table {
+  width: 100%;
+  margin: 2rem 0;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+}
+/* line 13, ../sass/objects/_tables.scss */
+.normal-table tr, .normal-table td, .normal-table th {
+  padding: .7em;
+}
+/* line 18, ../sass/objects/_tables.scss */
+.normal-table thead {
+  background: #00a55b;
+  color: #fff;
 }

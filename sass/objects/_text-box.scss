@@ -11,7 +11,7 @@
 
  
 
-  p {
+  .pl {
     padding: 0 0 1.25rem 1.7rem;
   }
 
@@ -36,6 +36,15 @@
   i {
     color: $text;
   }
-  }
+}
   
+}
+
+.header-box {
+  //background:$secondaryBg;
+  border-bottom: 1px solid $secondaryBg;
+
+  h2 {
+    margin: 0;
+  }
 }

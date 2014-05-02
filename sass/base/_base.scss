@@ -14,12 +14,13 @@ html{
 }
 
 body{
-  background: $baseBg;
+  background: $primary;
   color: $text;
   font-family: $font-1;
   font-size: 100%;
   line-height: $base-lineHeight;
   -webkit-font-smoothing: antialiased;
+  height:100%;
 }
 
 section, article {

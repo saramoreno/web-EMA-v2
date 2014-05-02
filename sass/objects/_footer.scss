@@ -4,14 +4,24 @@
 
 footer {
   overflow: hidden;
-  background: $secondaryBg;
-  color: #fff;
+  background: $baseBg;
+  color: $text;
+  margin-top: 2rem;
+  padding: 1.25rem 0;
+
+  img {
+    min-width: 100%;
+  } 
 
    @include box-shadow(1px 0 1px $text);
 
   a {
-    color: #fff;
+    color: $text;
+
+  &:hover {
+    text-decoration: underline;
   }
+}
 
   .logo-uam {
     width: 20%;
@@ -24,6 +34,7 @@ footer {
     text-align: center;
 
     i {
+      color: $secondaryBg;
       padding-right: .2rem;
       font-size: 1.25rem;
     }

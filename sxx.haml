@@ -1,0 +1,65 @@
+-# coding: utf-8
+!!! 5
+%html
+  %head
+    %meta{charset: "utf-8"}
+
+    %meta{content: "width=device-width", name: "viewport"}
+
+    %title Mundo Actual
+
+    /[if lt IE 9]
+      %script{src:"js/dependencies/html5shiv.js"}
+
+    %link{href: "stylesheets/screen.css", rel: 'stylesheet'}
+    %link{href: "stylesheets/font-awesome.min.css", rel: 'stylesheet'}
+
+
+  %body
+    %header
+      .wrapper
+        .logo.inline-content> 
+          %a{href:"default.html"} 
+            %img{src:"images/logo.png", alt:"logo"}/ 
+        %nav.main-nav.inline-content>
+          %ul
+            %li.inline-content
+              %a{href:"default.html"} Presentación
+            %li.inline-content
+              %a{href:"inscripcion.html"} Inscripción y matrícula
+            %li.inline-content
+              %a{href:"becas.html"} Becas y tasas
+            %li.active.inline-content
+              %a{href:"asignaturas.html"} Asignaturas
+            %li.inline-content
+              %a{href:"horarios.html"} Horarios
+            %li.inline-content
+              %a{href:"faq.html"} FAQ
+            %li.inline-content
+              %a{href:"contacto.html"} Contacto
+    .main-content
+      .wrapper
+        .text-box 
+          %h2.big-heading.no-top La historia del siglo XX
+          %p.pl
+            %i.fa.fa-user
+            Profesores: Pilar Toboso Sánchez y Juan Luis Pan-Montojo
+          %p.pl
+            %i.fa.fa-calendar-o
+            Módulo I: Sostenibilidad Global. Un enfoque interdisciplinar.
+          %p.pl
+            %i.fa.fa-calendar
+            Cuatrimestre: Primero
+          %p.pl
+            %i.fa.fa-clock-o
+            Horario: De 17:30h a 19:00h
+          %p.pl
+            %i.fa.fa-file
+            Breve descripción: En esta asignatura se explicarán los grandes procesos y los cambios políticos, sociales, económicos y culturales de la Historia del siglo XX.
+          %p.pl
+            %a{href:"#"} 
+              %i.fa.fa-download
+              Guía docente
+            
+
+

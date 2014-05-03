@@ -284,6 +284,51 @@ input[type="radio"] {
     width: 75%;
   }
 }
+/* line 109, ../sass/base/_grid.scss */
+.mr {
+  margin-right: 1%;
+}
+
+/* line 113, ../sass/base/_grid.scss */
+.ml {
+  margin-left: 1%;
+}
+
+/* line 117, ../sass/base/_grid.scss */
+.half-width {
+  width: 49%;
+}
+
+/* line 121, ../sass/base/_grid.scss */
+.forty-width {
+  width: 39%;
+}
+
+/* line 125, ../sass/base/_grid.scss */
+.forty-width {
+  width: 39%;
+}
+
+/* line 129, ../sass/base/_grid.scss */
+.sixty-width {
+  width: 59%;
+}
+
+/* line 133, ../sass/base/_grid.scss */
+.sixty-width {
+  width: 59%;
+}
+
+/* line 137, ../sass/base/_grid.scss */
+.onethird-width {
+  width: 32.33%;
+}
+
+/* line 141, ../sass/base/_grid.scss */
+.eighty-width {
+  width: 79%;
+}
+
 /*------------------------------------*\
     $HEADINGS
 \*------------------------------------*/
@@ -691,14 +736,14 @@ header .main-nav a:hover {
   padding-right: .5rem;
 }
 /* line 37, ../sass/objects/_text-box.scss */
-.text-box a, .normal-table a {
+.text-box a.normal-link, .normal-table a.normal-link {
   color: #00a55b;
   display: inline-block;
   width: 100%;
   padding: .7rem .5rem;
 }
 /* line 43, ../sass/objects/_text-box.scss */
-.text-box a:hover, .normal-table a:hover {
+.text-box a.normal-link:hover, .normal-table a.normal-link:hover {
   background-color: #e7e7e8;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -751,4 +796,31 @@ header .main-nav a:hover {
 .normal-table thead {
   background: #00a55b;
   color: #fff;
+}
+
+/*------------------------------------------*\
+    Buttons
+\*------------------------------------------*/
+/* line 5, ../sass/objects/_buttons.scss */
+.btn {
+  padding: .8rem;
+  background-color: #00a55b;
+  color: #fff;
+  border: none;
+  outline: none;
+  display: inline-block;
+  margin-bottom: .4rem;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+}
+/* line 14, ../sass/objects/_buttons.scss */
+.btn:hover {
+  opacity: .8;
+}
+/* line 21, ../sass/objects/_buttons.scss */
+.btn a {
+  color: #fff;
+  padding: .6rem 6rem;
 }

@@ -1,0 +1,25 @@
+/*------------------------------------------*\
+    Buttons
+\*------------------------------------------*/
+
+.btn {
+  padding: .8rem;
+  background-color: $secondaryBg;
+  color: #fff;
+  border: none;
+  outline: none;
+  display: inline-block;
+  margin-bottom: .4rem;
+
+  &:hover {
+    opacity: .8;
+  }
+
+
+  @include border-radius(3px);
+
+  a {
+    color: #fff;
+    padding: .6rem 6rem;
+  }
+}

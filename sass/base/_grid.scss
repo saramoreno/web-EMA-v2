@@ -103,3 +103,42 @@
 @include media-query(lap-and-up){
   @include grid-setup();
 }
+
+// GRIDS WIDTH MARGINS
+
+.mr {
+  margin-right: 1%;
+}
+
+.ml {
+  margin-left: 1%;
+}
+
+.half-width {
+  width: 49%;
+}
+
+.forty-width {
+  width: 39%;
+}
+
+.forty-width {
+  width: 39%;
+}
+
+.sixty-width {
+  width: 59%;
+}
+
+.sixty-width {
+  width: 59%;
+}
+
+.onethird-width {
+  width: 32.33%;
+}
+
+.eighty-width {
+  width: 79%;
+}
+

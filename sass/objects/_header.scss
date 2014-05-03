@@ -4,6 +4,7 @@
 
 header {
   background: $secondaryBg;
+  min-height: 5rem;
 
   @include box-shadow(1px 0 1px $text);
 
@@ -38,4 +39,28 @@ header {
 
 .active a {
   color: darken($secondaryBg, 20%);
+}
+
+.drop-bar {
+  position: relative;
+  a {
+    display:none;
+    position: absolute;
+    top: 0.3rem;
+    right:0;
+
+    font-size: 1.15rem;
+  }
+}
+
+@include media-query(palm) {
+  .main-nav {
+    display:none;
+  }
+
+  .drop-bar {
+    a {
+      display: block;
+    }
+  }
 }

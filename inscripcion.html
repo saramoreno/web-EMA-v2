@@ -12,7 +12,13 @@
   </head>
   <body>
     <header>
-      <div class='wrapper'><div class='logo inline-content'>
+      <div class='wrapper'>
+        <div class='drop-bar'>
+          <a href='#'>
+            <i class='fa fa-align-justify'></i>
+            Menu
+          </a>
+        </div><div class='logo inline-content'>
           <a href='default.html'>
             <img alt='logo' src='images/logo.png'>
           </a>
@@ -40,38 +46,72 @@
               <a href='contacto.html'>Contacto</a>
             </li>
           </ul>
-        </nav></div>
+        </nav><div id='dropdown-menu'>
+          <ul>
+            <li>
+              <a href='default.html'>Presentación</a>
+            </li>
+            <li>
+              <a href='inscripcion.html'>Inscripción y matrícula</a>
+            </li>
+            <li>
+              <a href='becas.html'>Becas y tasas</a>
+            </li>
+            <li>
+              <a href='asignaturas.html'>Asignaturas</a>
+            </li>
+            <li>
+              <a href='horarios.html'>Horarios</a>
+            </li>
+            <li>
+              <a href='faq.html'>FAQ</a>
+            </li>
+            <li>
+              <a href='contacto.html'>Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
+    <div class='main-content'></div>
     <div class='main-content'>
       <div class='wrapper'>
         <section>
           <h2 class='big-heading'>Opciones de matriculación</h2>
           <div class='text-box'>
-            <h3>
-              <i class='fa fa-hand-o-right'></i>
-              Total
-            </h3>
-            <p class='pl'>Supone la matriculación en el curso completo. Dos obligatorias y dos optativas.</p>
-            <h3>
-              <i class='fa fa-hand-o-right'></i>
-              Parcial
-            </h3>
-            <p class='pl'>Matriculación de un mínimo del 50% de las asignaturas de un curso completo, es decir, de dos asignaturas. Una de ellas tendrá que ser una obligatoria del curso en el que se matricula el alumno, y el resto a elegir entre todas las optativas ofrecidas en los tres cursos. En caso de un exceso de solicitud de matrícula en una optativa, se dará prioridad a los alumnos del curso en el que se ofrezca.</p>
+            <article>
+              <h3>
+                <i class='fa fa-hand-o-right'></i>
+                Total
+              </h3>
+              <p class='pl'>Supone la matriculación en el curso completo. Dos obligatorias y dos optativas.</p>
+            </article>
+            <article>
+              <h3>
+                <i class='fa fa-hand-o-right'></i>
+                Parcial
+              </h3>
+              <p class='pl'>Matriculación de un mínimo del 50% de las asignaturas de un curso completo, es decir, de dos asignaturas. Una de ellas tendrá que ser una obligatoria del curso en el que se matricula el alumno, y el resto a elegir entre todas las optativas ofrecidas en los tres cursos. En caso de un exceso de solicitud de matrícula en una optativa, se dará prioridad a los alumnos del curso en el que se ofrezca.</p>
+            </article>
           </div>
         </section>
         <section>
           <h2 class='big-heading'>Fechas de preinscripción y matrícula</h2>
           <div class='text-box'>
-            <h3>
-              <i class='fa fa-pencil-square'></i>
-              Preinscripción
-            </h3>
-            <p class='pl'>Del 3 al 27 de junio de 2014 y del 9 al 24 de septiembre de 2014</p>
-            <h3>
-              <i class='fa fa-pencil-square'></i>
-              Matrícula
-            </h3>
-            <p class='pl'>Del 7 al 17 de octubre de 2014</p>
+            <article>
+              <h3>
+                <i class='fa fa-pencil-square'></i>
+                Preinscripción
+              </h3>
+              <p class='pl'>Del 3 al 27 de junio de 2014 y del 9 al 24 de septiembre de 2014</p>
+            </article>
+            <article>
+              <h3>
+                <i class='fa fa-pencil-square'></i>
+                Matrícula
+              </h3>
+              <p class='pl'>Del 7 al 17 de octubre de 2014</p>
+            </article>
             <article>
               <a class='normal-link' href='https://secretaria-virtual.uam.es/cosmos/Controlador/?apl=Uninavs&amp;gu=a&amp;idNav=inicio&amp;NuevaSesionUsuario=true&amp;NombreUsuarioAlumno=ALUMEP&amp;idiomas=es.ES'>
                 <i class='fa fa-download'></i>
@@ -118,5 +158,8 @@
           </li>
         </ul></div>
     </footer>
+    <!-- /Scripts -->
+    <script src='js/jquery-1.10.2.min.js'></script>
+    <script src='js/scripts.js'></script>
   </body>
 </html>

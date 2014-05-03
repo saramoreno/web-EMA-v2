@@ -9,10 +9,17 @@
     <![endif]-->
     <link href='stylesheets/screen.css' rel='stylesheet'>
     <link href='stylesheets/font-awesome.min.css' rel='stylesheet'>
+    <link href='stylesheets/flexslider.css' rel='stylesheet'>
   </head>
   <body>
     <header>
-      <div class='wrapper'><div class='logo inline-content'>
+      <div class='wrapper'>
+        <div class='drop-bar'>
+          <a href='#'>
+            <i class='fa fa-align-justify'></i>
+            Menu
+          </a>
+        </div><div class='logo inline-content'>
           <a href='default.html'>
             <img alt='logo' src='images/logo.png'>
           </a>
@@ -40,30 +47,69 @@
               <a href='contacto.html'>Contacto</a>
             </li>
           </ul>
-        </nav></div>
+        </nav><div id='dropdown-menu'>
+          <ul>
+            <li>
+              <a href='default.html'>Presentación</a>
+            </li>
+            <li>
+              <a href='inscripcion.html'>Inscripción y matrícula</a>
+            </li>
+            <li>
+              <a href='becas.html'>Becas y tasas</a>
+            </li>
+            <li>
+              <a href='asignaturas.html'>Asignaturas</a>
+            </li>
+            <li>
+              <a href='horarios.html'>Horarios</a>
+            </li>
+            <li>
+              <a href='faq.html'>FAQ</a>
+            </li>
+            <li>
+              <a href='contacto.html'>Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <div class='main-content'>
       <div class='wrapper'>
-        <h1 class='big-heading'>Título Propio Experto en el Mundo Actual: Claves y Desafíos</h1>
+        <h1 class='big-heading centered'>Título Propio Experto en el Mundo Actual: Claves y Desafíos</h1>
         <section>
           <div id='hero-unit'>
-            <img alt='' src='images/img2.png'>
-            <img alt='' src='images/img1.png'>
-            <img alt='' src='images/img3.png'>
-            <img alt='' src='images/img6.jpg'>
+            <div class='flexslider'>
+              <ul class='slides'>
+                <li>
+                  <img alt='' src='images/img2.png'>
+                </li>
+                <li>
+                  <img alt='' src='images/img1.png'>
+                </li>
+                <li>
+                  <img alt='' src='images/img3.png'>
+                </li>
+                <li>
+                  <img alt='' src='images/img6.png'>
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
         <section>
           <article>
-            <h2 class='big-heading'>Objetivos</h2>
-            <p>El Título Propio "Experto en el Mundo Actual: Claves y desafíos" tiene como objetivo facilitar la comprensión de la compleja y cambiante realidad social, política, económica y cultural de las sociedades contemporáneas. A través de una formación interdisciplinar e integrada pretendemos profundizar y actualizar los conocimientos de los estudiantes con la finalidad de proporcionarles herramientas que les permitan comprender los retos que la globalización está generando. Entendido como un programa que contribuye a la formación a lo largo de toda la vida, pretendemos actualizar y dinamizar el conocimiento con la finalidad de que los estudiantes adquieran las competencias necesarias para potenciar la interacción social, la utilización de las nuevas herramientas de aprendizaje y la autonomía personal.</p>
-          </article>
-          <article>
-            <p>El programa que hemos diseñado un grupo de profesores de diferentes áreas de conocimiento de esta Universidad, con experiencia en enseñanza a los mayores, pretende presentar a nuestros posibles estudiantes un título coherente que posibilite la reflexión y actualice sus conocimientos generando herramientas que le permitan afrontar los grandes y cambiantes retos del Mundo Actual.</p>
+            <h2 class='big-heading nmt'>Objetivos</h2>
+            <div class='text-box'>
+              <p>El Título Propio "Experto en el Mundo Actual: Claves y desafíos" tiene como objetivo facilitar la comprensión de la compleja y cambiante realidad social, política, económica y cultural de las sociedades contemporáneas. A través de una formación interdisciplinar e integrada pretendemos profundizar y actualizar los conocimientos de los estudiantes con la finalidad de proporcionarles herramientas que les permitan comprender los retos que la globalización está generando. Entendido como un programa que contribuye a la formación a lo largo de toda la vida, pretendemos actualizar y dinamizar el conocimiento con la finalidad de que los estudiantes adquieran las competencias necesarias para potenciar la interacción social, la utilización de las nuevas herramientas de aprendizaje y la autonomía personal.</p>
+              <p>El programa que hemos diseñado un grupo de profesores de diferentes áreas de conocimiento de esta Universidad, con experiencia en enseñanza a los mayores, pretende presentar a nuestros posibles estudiantes un título coherente que posibilite la reflexión y actualice sus conocimientos generando herramientas que le permitan afrontar los grandes y cambiantes retos del Mundo Actual.</p>
+            </div>
           </article>
           <article>
             <h2 class='big-heading'>Estructura</h2>
-            <p>El Título se divide en tres módulos que duran un año académico. En cada uno de ellos se ofrecen asignaturas obligatorias y optativas, de modo que el estudiante puede cursar de dos a cuatro asignaturas por curso (una o dos obligatorias y una o dos optativas).</p>
+            <div class='text-box'>
+              <p>El Título se divide en tres módulos que duran un año académico. En cada uno de ellos se ofrecen asignaturas obligatorias y optativas, de modo que el estudiante puede cursar de dos a cuatro asignaturas por curso (una o dos obligatorias y una o dos optativas).</p>
+            </div>
           </article>
         </section>
       </div>
@@ -94,6 +140,7 @@
   </body>
   <!-- /Scripts -->
   <script src='js/jquery-1.10.2.min.js'></script>
-  <script src='js/jqFancyTransitions.1.8.min.js'></script>
+  <!-- /script{src:"js/jqFancyTransitions.1.8.min.js"} -->
+  <script src='js/jquery.flexslider-min.js'></script>
   <script src='js/scripts.js'></script>
 </html>

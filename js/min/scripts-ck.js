@@ -1,1 +1,1 @@
-$(document).ready(function(){$("#hero-unit").jqFancyTransitions({width:1200,height:260,strips:6,delay:4e3,links:!0})});
+$(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}),$(function(){function n(){$("#dropdown-menu").slideToggle()}$(".drop-bar a").on("click",n)}),$(function(){function n(){$("#dropdown-menu").slideToggle()}$(".drop-bar-2 a").on("click",n)});

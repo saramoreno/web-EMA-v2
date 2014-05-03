@@ -4,6 +4,26 @@
  * ----------------------------------------------------------------------------------------
  */
 
-$(document).ready( function(){
-                $('#hero-unit').jqFancyTransitions({ width: 1200, height: 260, strips: 6, delay: 4000, links: true})
-            });
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+
+//menu desplegable
+
+$(function () {
+  $(".drop-bar a").on("click", abreMenu);
+
+  function abreMenu() {
+    $("#dropdown-menu").slideToggle();
+  }
+});
+
+$(function () {
+  $(".drop-bar-2 a").on("click", abreMenu);
+
+  function abreMenu() {
+    $("#dropdown-menu").slideToggle();
+  }
+});

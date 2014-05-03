@@ -77,3 +77,19 @@
     padding-right: .3rem;
   }
 }
+
+@include media-query(palm) {
+  .text-box {
+    padding: 1rem;
+
+    .pl {
+      padding-left: 0;
+    }
+
+    .map {
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}

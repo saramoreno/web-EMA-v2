@@ -48,3 +48,10 @@ h3, .gamma {
   font-weight: 400;
   margin-bottom: 1rem;
 }
+
+@include media-query (palm) {
+  .big-heading {
+    font-size: 1.6rem;
+
+  }
+}

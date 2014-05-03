@@ -48,3 +48,16 @@ footer {
     }
   }
 }
+
+@include media-query(palm) {
+  footer
+    .logo-uam {
+      display:block;
+      margin: 0 auto;
+    }
+    ul.complementary-info {
+      display:block;
+      width: 100%;
+      padding: .7rem;
+    }
+}

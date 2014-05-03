@@ -8,11 +8,11 @@ header {
 
   @include box-shadow(1px 0 1px $text);
 
-  .logo {
-    width: 10%;
-
     img {
     max-width: 100%;
+  }
+  .logo {
+    width: 10%;
   }
 } 
 
@@ -22,10 +22,12 @@ header {
   }
 
   .main-nav {
-    width: 90%;
     text-align: right;
+    width: 90%;
+    vertical-align: middle;
 
     a {
+      display:block;
       font-size: .85rem;
       font-weight: 700;
 
@@ -35,7 +37,6 @@ header {
       }
     }
   }
-}
 
 .active a {
   color: darken($secondaryBg, 20%);
@@ -53,7 +54,8 @@ header {
   }
 }
 
-@include media-query(palm) {
+@media screen and (max-width: 700px) {
+
   .main-nav {
     display:none;
   }
@@ -64,3 +66,10 @@ header {
     }
   }
 }
+
+  .logo {
+    img {
+      min-width:40px; 
+      min-height:40px; 
+    }
+  }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -283,6 +284,16 @@ input[type="radio"] {
   .three-quarters {
     width: 75%;
   }
+
+  /* line 47, ../sass/base/_grid.scss */
+  .two-fifths {
+    width: 40%;
+  }
+
+  /* line 48, ../sass/base/_grid.scss */
+  .three-fifths {
+    width: 60%;
+  }
 }
 /* line 109, ../sass/base/_grid.scss */
 .mr {
@@ -295,13 +306,13 @@ input[type="radio"] {
 }
 
 /* line 117, ../sass/base/_grid.scss */
-.half-width {
-  width: 49%;
+.mt {
+  margin-top: 1rem;
 }
 
 /* line 121, ../sass/base/_grid.scss */
-.forty-width {
-  width: 39%;
+.half-width {
+  width: 49%;
 }
 
 /* line 125, ../sass/base/_grid.scss */
@@ -310,8 +321,8 @@ input[type="radio"] {
 }
 
 /* line 129, ../sass/base/_grid.scss */
-.sixty-width {
-  width: 59%;
+.forty-width {
+  width: 39%;
 }
 
 /* line 133, ../sass/base/_grid.scss */
@@ -320,11 +331,16 @@ input[type="radio"] {
 }
 
 /* line 137, ../sass/base/_grid.scss */
+.sixty-width {
+  width: 59%;
+}
+
+/* line 141, ../sass/base/_grid.scss */
 .onethird-width {
   width: 32.33%;
 }
 
-/* line 141, ../sass/base/_grid.scss */
+/* line 145, ../sass/base/_grid.scss */
 .eighty-width {
   width: 79%;
 }
@@ -750,12 +766,20 @@ header .main-nav a:hover {
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
 }
+/* line 48, ../sass/objects/_text-box.scss */
+.text-box article, .normal-table article {
+  vertical-align: top;
+}
+/* line 51, ../sass/objects/_text-box.scss */
+.text-box article p, .normal-table article p {
+  padding: 0 1rem 2.5rem 0;
+}
 
-/* line 50, ../sass/objects/_text-box.scss */
+/* line 57, ../sass/objects/_text-box.scss */
 .small-i {
   display: inline-block;
 }
-/* line 52, ../sass/objects/_text-box.scss */
+/* line 59, ../sass/objects/_text-box.scss */
 .small-i i {
   color: #65666b;
   font-size: .7rem;
@@ -764,12 +788,12 @@ header .main-nav a:hover {
   right: 0;
 }
 
-/* line 63, ../sass/objects/_text-box.scss */
+/* line 70, ../sass/objects/_text-box.scss */
 .small-note p {
   width: 90%;
   font-size: .8rem;
 }
-/* line 68, ../sass/objects/_text-box.scss */
+/* line 75, ../sass/objects/_text-box.scss */
 .small-note i {
   font-size: .8rem;
   padding-right: .3rem;
@@ -807,20 +831,27 @@ header .main-nav a:hover {
   background-color: #00a55b;
   color: #fff;
   border: none;
+  border-bottom: 2px solid #00723f;
   outline: none;
-  display: inline-block;
+  ∫display: inline-block;
   margin-bottom: .4rem;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
 }
-/* line 14, ../sass/objects/_buttons.scss */
+/* line 15, ../sass/objects/_buttons.scss */
 .btn:hover {
   opacity: .8;
 }
 /* line 21, ../sass/objects/_buttons.scss */
-.btn a {
+.btn a, .btn i {
   color: #fff;
-  padding: .6rem 6rem;
+}
+
+/* line 26, ../sass/objects/_buttons.scss */
+.btn-group {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
 }

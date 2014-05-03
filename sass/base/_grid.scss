@@ -44,8 +44,8 @@
   // Fifths
 
   // .#{$namespace}one-fifth         { width:20%; }
-  // .#{$namespace}two-fifths        { width:40%; }
-  // .#{$namespace}three-fifths      { width:60%; }
+ .#{$namespace}two-fifths        { width:40%; }
+ .#{$namespace}three-fifths      { width:60%; }
   // .#{$namespace}four-fifths       { width:80%; }
 
 
@@ -112,6 +112,10 @@
 
 .ml {
   margin-left: 1%;
+}
+
+.mt {
+  margin-top: 1rem;
 }
 
 .half-width {

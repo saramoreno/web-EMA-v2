@@ -7,19 +7,24 @@
   background-color: $secondaryBg;
   color: #fff;
   border: none;
+  border-bottom: 2px solid darken($secondaryBg,10%);
   outline: none;
-  display: inline-block;
+  ∫display: inline-block;
   margin-bottom: .4rem;
 
   &:hover {
     opacity: .8;
   }
-
-
+  
   @include border-radius(3px);
 
-  a {
+  a, i {
     color: #fff;
-    padding: .6rem 6rem;
   }
+}
+
+.btn-group {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
 }

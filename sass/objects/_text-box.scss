@@ -45,6 +45,13 @@
     @include border-radius (5px);
     }
   }
+  article {
+    vertical-align: top;
+
+    p {
+      padding: 0 1rem 2.5rem 0;
+    }
+  }
 }
 
  .small-i {

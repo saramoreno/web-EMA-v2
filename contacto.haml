@@ -1,0 +1,82 @@
+-# coding: utf-8
+!!! 5
+%html
+  %head
+    %meta{charset: "utf-8"}
+
+    %meta{content: "width=device-width", name: "viewport"}
+
+    %title Mundo Actual
+
+    /[if lt IE 9]
+      %script{src:"js/dependencies/html5shiv.js"}
+
+    %link{href: "stylesheets/screen.css", rel: 'stylesheet'}
+    %link{href: "stylesheets/font-awesome.min.css", rel: 'stylesheet'}
+
+
+  %body
+    %header
+      .wrapper
+        .logo.inline-content> 
+          %a{href:"default.html"} 
+            %img{src:"images/logo.png", alt:"logo"}/ 
+        %nav.main-nav.inline-content>
+          %ul
+            %li.inline-content
+              %a{href:"default.html"} Presentación
+            %li.inline-content
+              %a{href:"inscripcion.html"} Inscripción y matrícula
+            %li.inline-content
+              %a{href:"becas.html"} Becas y tasas
+            %li.inline-content
+              %a{href:"asignaturas.html"} Asignaturas
+            %li.inline-content
+              %a{href:"horarios.html"} Horarios
+            %li.inline-content
+              %a{href:"faq.html"} FAQ
+            %li.active.inline-content
+              %a{href:"contacto.html"} Contacto
+    .main-content
+      .wrapper
+        %h2.big-heading Contacto
+        .text-box
+          %article.three-fifths.inline-content>
+            %h3 
+              %i.fa.fa-map-marker
+              Dirección
+            %p Centro de Estudios de Postgrado, Calle Francisco Tomás y Valiente 2. Segunda planta, aula 1. Campus de Cantoblanco. Ctra. Colmenar Viejo, km. 15. 28049 Madrid.
+            %h3
+              %i.fa.fa-phone-square
+              Teléfono de contacto
+            %p (+34) 91 497 65 25
+            %h3 
+              %i.fa.fa-clock-o
+              Horario de atención
+            %p De lunes a viernes de 10:30 a 14:00h
+            %h3 
+              %i.fa.fa-envelope
+              Email
+            %p mundoactual@uam.es
+          %article.two-fifths.inline-content>
+            #mapa
+              <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Calle+Francisco+Tom%C3%A1s+y+Valiente,+2,+Madrid,+Spain&amp;aq=0&amp;oq=calle+fra&amp;sll=40.480643,-3.699303&amp;sspn=0.178358,0.329247&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Francisco+Tom%C3%A1s+y+Valiente,+2,+28049+Madrid,+Spain&amp;ll=40.54395,-3.698469&amp;spn=0.011137,0.020578&amp;t=m&amp;z=14&amp;iwloc=&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Calle+Francisco+Tom%C3%A1s+y+Valiente,+2,+Madrid,+Spain&amp;aq=0&amp;oq=calle+fra&amp;sll=40.480643,-3.699303&amp;sspn=0.178358,0.329247&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Francisco+Tom%C3%A1s+y+Valiente,+2,+28049+Madrid,+Spain&amp;ll=40.54395,-3.698469&amp;spn=0.011137,0.020578&amp;t=m&amp;z=14&amp;iwloc=" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+
+
+    %footer
+      .wrapper
+        .logo-uam.inline-content>
+          %a{href:"https://www.uam.es"}  
+            %img{src:"images/logo-uam2.gif", :alt => "uam"}/ 
+        %ul.complementary-info.inline-content>
+          %li.one-whole
+            %h4 Título Propio Experto en el Mundo Actual: Claves y Desafios
+          %li
+            %i.fa.fa-map-marker.inline-content 
+            %p.inline-content Centro de Estudios de Postgrado, planta 2 aula 1
+          %li
+            %i.fa.fa-envelope
+            %a{href:"mailto:mundoactual@uam.es"} mundoactual@uam.es
+          %li.inline-content
+            %i.fa.fa-phone.inline-content
+            %p.inline-content 91 4976526

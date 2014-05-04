@@ -5,6 +5,8 @@
 
 /* Tipos */
 
+@include font-face('flexslider-icon', 'flexslider-icon', 200);
+
 
 /* Global */
 
@@ -91,6 +93,10 @@ p a{
 
 .inline-content{
   display: table-cell; 
+}
+
+.inline-block {
+  display:inline-block;
 }
 
 //text

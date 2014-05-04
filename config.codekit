@@ -172,17 +172,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/img1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 67062,
-		"inputAbbreviatedPath": "\/images\/img1.jpg",
-		"outputAbbreviatedPath": "\/images\/img1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/img1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -216,17 +205,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/img6.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 410809,
-		"inputAbbreviatedPath": "\/images\/img6.jpg",
-		"outputAbbreviatedPath": "\/images\/img6.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/img6.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -249,28 +227,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/logo-uam.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 15311,
-		"inputAbbreviatedPath": "\/images\/logo-uam.png",
-		"outputAbbreviatedPath": "\/images\/logo-uam.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/logo-uam2.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9236,
-		"inputAbbreviatedPath": "\/images\/logo-uam2.jpeg",
-		"outputAbbreviatedPath": "\/images\/logo-uam2.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/logo-uam2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -289,17 +245,6 @@
 		"initialSize": 6130,
 		"inputAbbreviatedPath": "\/images\/logo.png",
 		"outputAbbreviatedPath": "\/images\/logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/onu.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 538652,
-		"inputAbbreviatedPath": "\/images\/onu.jpg",
-		"outputAbbreviatedPath": "\/images\/onu.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

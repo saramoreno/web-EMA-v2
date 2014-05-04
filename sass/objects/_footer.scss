@@ -7,7 +7,7 @@ footer {
   background: $baseBg;
   color: $text;
   margin-top: 2rem;
-  padding: 1.25rem 0;
+  padding: 2rem 0;
 
   img {
     min-width: 100%;
@@ -25,6 +25,7 @@ footer {
 
   .logo-uam {
     width: 20%;
+    vertical-align: middle;
   }
 
   .complementary-info {
@@ -37,10 +38,21 @@ footer {
       color: $secondaryBg;
       padding-right: .2rem;
       font-size: 1.25rem;
+      display: inline-block;
     }
+
+    ul {
+      margin: 1rem 0;
+    }
+
     li {
       display:inline-block;
       padding: .7rem;
+      vertical-align: bottom;
+    }
+
+    p {
+      display:inline-block;
     }
 
     p, a {
@@ -55,6 +67,7 @@ footer {
       display:block;
       margin: 0 auto;
     }
+
     ul.complementary-info {
       display:block;
       width: 100%;

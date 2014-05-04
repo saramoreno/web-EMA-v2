@@ -89,8 +89,8 @@
           %a.normal-link{href:"grecia.html"} Grecia Clásica
           %a.normal-link{href:"arte.html"} El arte y la cultura audiovisual en el mundo contemporáneo
         .text-box
-          %h3.inline-content Nuevas optativas 
-          .small-i
+          %h3.inline-block Nuevas optativas 
+          .small-i.inline-block
             %i.fa.fa-asterisk
           %a.normal-link{href:"esp.html"} La historia de España del siglo XX
           %a.normal-link{href:"biologia.html"} Biología y Genética
@@ -98,8 +98,8 @@
           %a.normal-link{href:"economia.html"} Economía para no economistas
 
         .small-note
-          %i.fa.fa-asterisk.inline-content>
-          %p.inline-content> Optativas no ligadas a ningún curso. Tienen preferencia sobre ellas los los estudiantes que han finalizado el Título Propio.
+          %i.fa.fa-asterisk.inline-block>
+          %p.inline-block> Optativas no ligadas a ningún curso. Tienen preferencia sobre ellas los los estudiantes que han finalizado el Título Propio.
 
         .btn-download.centered.mt
           %button.btn
@@ -111,19 +111,19 @@
       .wrapper
         .logo-uam.inline-content>
           %a{href:"https://www.uam.es"}  
-            %img{src:"images/logo-uam2.gif", :alt => "uam"}/ 
-        %ul.complementary-info.inline-content>
-          %li.one-whole
-            %h4 Título Propio Experto en el Mundo Actual: Claves y Desafios
-          %li
-            %i.fa.fa-map-marker.inline-content 
-            %p.inline-content Centro de Estudios de Postgrado, planta 2 aula 1
-          %li
-            %i.fa.fa-envelope
-            %a{href:"mailto:mundoactual@uam.es"} mundoactual@uam.es
-          %li.inline-content
-            %i.fa.fa-phone.inline-content
-            %p.inline-content 91 4976526
+            %img{src:"images/logo-uam2.png", :alt => "uam"}/ 
+        .complementary-info.inline-content>
+          %h4.one-whole Título Propio Experto en el Mundo Actual: Claves y Desafios
+          %ul 
+            %li
+              %i.fa.fa-map-marker
+              %p Centro de Estudios de Postgrado, planta 2 aula 1
+            %li
+              %i.fa.fa-envelope
+              %a{href:"mailto:mundoactual@uam.es"} mundoactual@uam.es
+            %li
+              %i.fa.fa-phone
+              %p 91 4976526
 
     //Scripts
     %script{src:"js/jquery-1.10.2.min.js"}  

@@ -22,6 +22,7 @@
 
   p {
     padding-bottom: 1.35rem;
+    line-height: 1.5rem;
   }
 
   h3 {
@@ -55,7 +56,7 @@
 }
 
  .small-i {
-    display: inline-block;
+
     i {
       color: $text;
       font-size: .7rem;
@@ -70,11 +71,13 @@
   p {
     width: 90%;
     font-size: .8rem;
+    vertical-align: top;
   }
 
   i {
     font-size: .8rem;
     padding-right: .3rem;
+    vertical-align: top;
   }
 }
 
@@ -87,6 +90,7 @@
     }
 
     .map {
+      display:block;
       margin: 0 auto;
       text-align: center;
       width: 100%;

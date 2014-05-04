@@ -78,14 +78,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     $BASE
 \*------------------------------------*/
 /* Tipos */
+@font-face {
+  font-family: "flexslider-icon";
+  src: url("../fonts/flexslider-icon.otf");
+  /* IE9 Compat Modes */
+  src: url("../fonts/flexslider-icon.otf?#iefix") format("embedded-opentype"), url("../fonts/flexslider-icon.woff") format("woff"), url("../fonts/flexslider-icon.ttf") format("truetype"), url("../fonts/flexslider-icon.svg#flexslider-icon") format("svg");
+  /* Legacy iOS */
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+}
 /* Global */
-/* line 11, ../sass/base/_base.scss */
+/* line 13, ../sass/base/_base.scss */
 html {
   font-size: 87.5%;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
-/* line 16, ../sass/base/_base.scss */
+/* line 18, ../sass/base/_base.scss */
 body {
   background: #f5f6f7;
   color: #65666b;
@@ -96,101 +106,106 @@ body {
   height: 100%;
 }
 
-/* line 26, ../sass/base/_base.scss */
+/* line 28, ../sass/base/_base.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 32, ../sass/base/_base.scss */
+/* line 34, ../sass/base/_base.scss */
 section, article {
   margin: 2.5rem 0;
 }
 
 /* Block Content */
-/* line 39, ../sass/base/_base.scss */
+/* line 41, ../sass/base/_base.scss */
 h1, h2, h2, h3, h4, h6 {
   font-size: 1em;
   font-weight: bold;
 }
 
-/* line 44, ../sass/base/_base.scss */
+/* line 46, ../sass/base/_base.scss */
 p {
   line-height: 1.3;
 }
 
 /* Inline Content */
-/* line 50, ../sass/base/_base.scss */
+/* line 52, ../sass/base/_base.scss */
 a {
   color: #00a55b;
   text-decoration: none;
 }
-/* line 54, ../sass/base/_base.scss */
+/* line 56, ../sass/base/_base.scss */
 a:active {
   outline: none;
 }
-/* line 58, ../sass/base/_base.scss */
+/* line 60, ../sass/base/_base.scss */
 a:focus {
   -moz-outline-syle: none;
 }
 
-/* line 63, ../sass/base/_base.scss */
+/* line 65, ../sass/base/_base.scss */
 p a {
   color: #f5f6f7;
 }
 
-/* line 68, ../sass/base/_base.scss */
+/* line 70, ../sass/base/_base.scss */
 .centered {
   text-align: center;
 }
 
-/* line 71, ../sass/base/_base.scss */
+/* line 73, ../sass/base/_base.scss */
 .left-align {
   text-align: left;
 }
 
-/* line 74, ../sass/base/_base.scss */
+/* line 76, ../sass/base/_base.scss */
 .right-align {
   text-align: right;
 }
 
-/* line 79, ../sass/base/_base.scss */
+/* line 81, ../sass/base/_base.scss */
 .left {
   float: left;
 }
 
-/* line 82, ../sass/base/_base.scss */
+/* line 84, ../sass/base/_base.scss */
 .right {
   float: right;
 }
 
-/* line 85, ../sass/base/_base.scss */
+/* line 87, ../sass/base/_base.scss */
 .center {
   margin: 0 auto;
 }
 
-/* line 88, ../sass/base/_base.scss */
+/* line 90, ../sass/base/_base.scss */
 .no-float {
   float: none;
 }
 
-/* line 92, ../sass/base/_base.scss */
+/* line 94, ../sass/base/_base.scss */
 .inline-content {
   display: table-cell;
 }
 
 /* line 98, ../sass/base/_base.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 104, ../sass/base/_base.scss */
 .t-thin {
   font-weight: 100;
 }
 
-/* line 102, ../sass/base/_base.scss */
+/* line 108, ../sass/base/_base.scss */
 .t-bold {
   font-weight: 700;
 }
 
-/* line 106, ../sass/base/_base.scss */
+/* line 112, ../sass/base/_base.scss */
 .t-code {
   font-family: "Cousine";
   opacity: 0.6;
@@ -589,7 +604,7 @@ footer {
   background: white;
   color: #65666b;
   margin-top: 2rem;
-  padding: 1.25rem 0;
+  padding: 2rem 0;
   -webkit-box-shadow: 1px 0 1px #65666b;
   -moz-box-shadow: 1px 0 1px #65666b;
   box-shadow: 1px 0 1px #65666b;
@@ -609,39 +624,50 @@ footer a:hover {
 /* line 26, ../sass/objects/_footer.scss */
 footer .logo-uam {
   width: 20%;
+  vertical-align: middle;
 }
-/* line 30, ../sass/objects/_footer.scss */
+/* line 31, ../sass/objects/_footer.scss */
 footer .complementary-info {
   width: 80%;
   padding: 1.25rem;
   vertical-align: middle;
   text-align: center;
 }
-/* line 36, ../sass/objects/_footer.scss */
+/* line 37, ../sass/objects/_footer.scss */
 footer .complementary-info i {
   color: #00a55b;
   padding-right: .2rem;
   font-size: 1.25rem;
+  display: inline-block;
 }
-/* line 41, ../sass/objects/_footer.scss */
+/* line 44, ../sass/objects/_footer.scss */
+footer .complementary-info ul {
+  margin: 1rem 0;
+}
+/* line 48, ../sass/objects/_footer.scss */
 footer .complementary-info li {
   display: inline-block;
   padding: .7rem;
+  vertical-align: bottom;
 }
-/* line 46, ../sass/objects/_footer.scss */
+/* line 54, ../sass/objects/_footer.scss */
+footer .complementary-info p {
+  display: inline-block;
+}
+/* line 58, ../sass/objects/_footer.scss */
 footer .complementary-info p, footer .complementary-info a {
   font-size: .8rem;
 }
 
 @media only screen and (max-width: 49.92857em) {
-  /* line 53, ../sass/objects/_footer.scss */
+  /* line 65, ../sass/objects/_footer.scss */
   footer
   .logo-uam {
     display: block;
     margin: 0 auto;
   }
 
-  /* line 58, ../sass/objects/_footer.scss */
+  /* line 71, ../sass/objects/_footer.scss */
   ul.complementary-info {
     display: block;
     width: 100%;
@@ -667,9 +693,8 @@ header img {
 header .logo {
   width: 10%;
 }
-
-/* line 19, ../sass/objects/_header.scss */
-a {
+/* line 18, ../sass/objects/_header.scss */
+header a {
   color: #fff;
   padding: .75rem;
 }
@@ -758,25 +783,26 @@ a {
 /* line 23, ../sass/objects/_text-box.scss */
 .text-box p, .normal-table p {
   padding-bottom: 1.35rem;
+  line-height: 1.5rem;
 }
-/* line 27, ../sass/objects/_text-box.scss */
+/* line 28, ../sass/objects/_text-box.scss */
 .text-box h3, .normal-table h3 {
   padding-bottom: 1rem;
   font-weight: 200;
 }
-/* line 32, ../sass/objects/_text-box.scss */
+/* line 33, ../sass/objects/_text-box.scss */
 .text-box i, .normal-table i {
   color: #00a55b;
   padding-right: .5rem;
 }
-/* line 37, ../sass/objects/_text-box.scss */
+/* line 38, ../sass/objects/_text-box.scss */
 .text-box a.normal-link, .normal-table a.normal-link {
   color: #00a55b;
   display: inline-block;
   width: 100%;
   padding: .7rem .5rem;
 }
-/* line 43, ../sass/objects/_text-box.scss */
+/* line 44, ../sass/objects/_text-box.scss */
 .text-box a.normal-link:hover, .normal-table a.normal-link:hover {
   background-color: #e7e7e8;
   -webkit-border-radius: 5px;
@@ -784,20 +810,16 @@ a {
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
 }
-/* line 48, ../sass/objects/_text-box.scss */
+/* line 49, ../sass/objects/_text-box.scss */
 .text-box article, .normal-table article {
   vertical-align: top;
 }
-/* line 51, ../sass/objects/_text-box.scss */
+/* line 52, ../sass/objects/_text-box.scss */
 .text-box article p, .normal-table article p {
   padding: 0 1rem 2.5rem 0;
 }
 
-/* line 57, ../sass/objects/_text-box.scss */
-.small-i {
-  display: inline-block;
-}
-/* line 59, ../sass/objects/_text-box.scss */
+/* line 60, ../sass/objects/_text-box.scss */
 .small-i i {
   color: #65666b;
   font-size: .7rem;
@@ -806,28 +828,31 @@ a {
   right: 0;
 }
 
-/* line 70, ../sass/objects/_text-box.scss */
+/* line 71, ../sass/objects/_text-box.scss */
 .small-note p {
   width: 90%;
   font-size: .8rem;
+  vertical-align: top;
 }
-/* line 75, ../sass/objects/_text-box.scss */
+/* line 77, ../sass/objects/_text-box.scss */
 .small-note i {
   font-size: .8rem;
   padding-right: .3rem;
+  vertical-align: top;
 }
 
 @media only screen and (max-width: 49.92857em) {
-  /* line 82, ../sass/objects/_text-box.scss */
+  /* line 85, ../sass/objects/_text-box.scss */
   .text-box, .normal-table {
     padding: 1rem;
   }
-  /* line 85, ../sass/objects/_text-box.scss */
+  /* line 88, ../sass/objects/_text-box.scss */
   .text-box .pl, .normal-table .pl {
     padding-left: 0;
   }
-  /* line 89, ../sass/objects/_text-box.scss */
+  /* line 92, ../sass/objects/_text-box.scss */
   .text-box .map, .normal-table .map {
+    display: block;
     margin: 0 auto;
     text-align: center;
     width: 100%;

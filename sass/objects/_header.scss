@@ -4,7 +4,7 @@
 
 header {
   background: $secondaryBg;
-  min-height: 5rem;
+  min-height: 3rem;
 
   @include box-shadow(1px 0 1px $text);
 
@@ -47,7 +47,7 @@ header {
   a {
     display:none;
     position: absolute;
-    top: 0.3rem;
+    top: 1.5rem;
     right:0;
 
     font-size: 1.15rem;

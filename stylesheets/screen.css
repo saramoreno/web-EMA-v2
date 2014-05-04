@@ -126,63 +126,71 @@ a {
   color: #00a55b;
   text-decoration: none;
 }
+/* line 54, ../sass/base/_base.scss */
+a:active {
+  outline: none;
+}
+/* line 58, ../sass/base/_base.scss */
+a:focus {
+  -moz-outline-syle: none;
+}
 
-/* line 55, ../sass/base/_base.scss */
+/* line 63, ../sass/base/_base.scss */
 p a {
   color: #f5f6f7;
 }
 
-/* line 60, ../sass/base/_base.scss */
+/* line 68, ../sass/base/_base.scss */
 .centered {
   text-align: center;
 }
 
-/* line 63, ../sass/base/_base.scss */
+/* line 71, ../sass/base/_base.scss */
 .left-align {
   text-align: left;
 }
 
-/* line 66, ../sass/base/_base.scss */
+/* line 74, ../sass/base/_base.scss */
 .right-align {
   text-align: right;
 }
 
-/* line 71, ../sass/base/_base.scss */
+/* line 79, ../sass/base/_base.scss */
 .left {
   float: left;
 }
 
-/* line 74, ../sass/base/_base.scss */
+/* line 82, ../sass/base/_base.scss */
 .right {
   float: right;
 }
 
-/* line 77, ../sass/base/_base.scss */
+/* line 85, ../sass/base/_base.scss */
 .center {
   margin: 0 auto;
 }
 
-/* line 80, ../sass/base/_base.scss */
+/* line 88, ../sass/base/_base.scss */
 .no-float {
   float: none;
 }
 
-/* line 84, ../sass/base/_base.scss */
+/* line 92, ../sass/base/_base.scss */
 .inline-content {
-  display: inline-block;
+  display: table-cell;
 }
 
-/* line 90, ../sass/base/_base.scss */
+/* line 98, ../sass/base/_base.scss */
 .t-thin {
   font-weight: 100;
 }
 
-/* line 94, ../sass/base/_base.scss */
+/* line 102, ../sass/base/_base.scss */
 .t-bold {
   font-weight: 700;
 }
 
-/* line 98, ../sass/base/_base.scss */
+/* line 106, ../sass/base/_base.scss */
 .t-code {
   font-family: "Cousine";
   opacity: 0.6;
@@ -505,46 +513,41 @@ a {
 }
 
 /* line 39, ../sass/base/_normalize.scss */
-a:focus {
-  outline: thin dotted;
-}
-
-/* line 43, ../sass/base/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
 }
 
-/* line 48, ../sass/base/_normalize.scss */
+/* line 44, ../sass/base/_normalize.scss */
 h1, h2, h2, h3, h4, h6 {
   margin: 0;
 }
 
-/* line 58, ../sass/base/_normalize.scss */
+/* line 54, ../sass/base/_normalize.scss */
 p {
   margin: 0;
 }
 
-/* line 62, ../sass/base/_normalize.scss */
+/* line 58, ../sass/base/_normalize.scss */
 ::selection {
   background: #f5f6f7;
   color: #FFF;
 }
 
-/* line 66, ../sass/base/_normalize.scss */
+/* line 62, ../sass/base/_normalize.scss */
 ::-moz-selection {
   background: #f5f6f7;
   color: #FFF;
 }
 
-/* line 71, ../sass/base/_normalize.scss */
+/* line 67, ../sass/base/_normalize.scss */
 ul, ol, dl, dd {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 77, ../sass/base/_normalize.scss */
+/* line 73, ../sass/base/_normalize.scss */
 img {
   border: 0;
   vertical-align: middle;
@@ -552,17 +555,17 @@ img {
   height: auto;
 }
 
-/* line 84, ../sass/base/_normalize.scss */
+/* line 80, ../sass/base/_normalize.scss */
 iframe {
   max-width: 100%;
 }
 
-/* line 88, ../sass/base/_normalize.scss */
+/* line 84, ../sass/base/_normalize.scss */
 figure {
   margin: 0;
 }
 
-/* line 92, ../sass/base/_normalize.scss */
+/* line 88, ../sass/base/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -651,7 +654,7 @@ footer .complementary-info p, footer .complementary-info a {
 /* line 5, ../sass/objects/_header.scss */
 header {
   background: #00a55b;
-  min-height: 5rem;
+  min-height: 3rem;
   -webkit-box-shadow: 1px 0 1px #65666b;
   -moz-box-shadow: 1px 0 1px #65666b;
   box-shadow: 1px 0 1px #65666b;
@@ -705,7 +708,7 @@ a {
 .drop-bar a {
   display: none;
   position: absolute;
-  top: 0.3rem;
+  top: 1.5rem;
   right: 0;
   font-size: 1.15rem;
 }
@@ -919,4 +922,12 @@ a {
 /* line 29, ../sass/objects/_dropdown-menu.scss */
 #dropdown-menu a:hover {
   background-color: #00af61;
+}
+
+/*------------------------------------------*\
+    navigation
+\*------------------------------------------*/
+/* line 6, ../sass/objects/_nav.scss */
+.main-nav li {
+  display: inline-block;
 }

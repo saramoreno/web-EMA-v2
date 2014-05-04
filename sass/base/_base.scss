@@ -50,6 +50,14 @@ p{
 a{
   color: $secondaryBg;
   text-decoration: none;
+
+  &:active {
+    outline: none;
+  }
+
+  &:focus {
+    -moz-outline-syle:none;
+  }
 }
 
 p a{
@@ -82,7 +90,7 @@ p a{
 }
 
 .inline-content{
-  display: inline-block; 
+  display: table-cell; 
 }
 
 //text

@@ -12,9 +12,9 @@ h2, .beta {
 h3, .gamma {
   @include font-size($font_size_gamma);
 }
-// h4, .delta {
-//   @include font-size($font_size_delta);
-// }
+h4, .delta {
+  @include font-size($font_size_delta);
+}
 // h5, .epsilon {
 //   @include font-size($font_size_epsilon); 
 // }

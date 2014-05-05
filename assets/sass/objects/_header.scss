@@ -1,0 +1,75 @@
+/*------------------------------------------*\
+    HEADER
+\*------------------------------------------*/
+
+header {
+  background: $secondaryBg;
+  min-height: 3rem;
+
+  @include box-shadow(1px 0 1px $text);
+
+    img {
+    max-width: 100%;
+  }
+  .logo {
+    width: 10%;
+  }
+
+  a {
+    color: #fff;
+    padding: .75rem;
+  }
+}
+
+  .main-nav {
+    text-align: right;
+    width: 90%;
+    vertical-align: middle;
+
+    a {
+      display:block;
+      font-size: .85rem;
+      font-weight: 700;
+
+    &:hover {
+      background: darken($secondaryBg, 10%);
+      @include border-radius (5px);
+      }
+    }
+  }
+
+.active a {
+  color: darken($secondaryBg, 20%);
+}
+
+.drop-bar {
+  position: relative;
+  a {
+    display:none;
+    position: absolute;
+    top: 1.5rem;
+    right:0;
+
+    font-size: 1.15rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .main-nav {
+    display:none;
+  }
+
+  .drop-bar {
+    a {
+      display: block;
+    }
+  }
+}
+
+  .logo {
+    img {
+      min-width:40px; 
+      min-height:40px; 
+    }
+  }

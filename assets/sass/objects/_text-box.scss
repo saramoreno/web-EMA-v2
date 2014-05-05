@@ -1,0 +1,99 @@
+/*------------------------------------------*\
+    text box
+\*------------------------------------------*/
+
+.text-box {
+  border: 1px solid lighten($text, 50%);
+  @include border-radius(5px);
+  padding: 1.25rem;
+  margin: .7rem 0;
+  background: #fff;
+
+  @include box-shadow (1px 2px 2px lighten($text, 50%));
+
+
+  .pl {
+    padding: 0 0 1.25rem 1.7rem;
+  }
+
+  .no-top {
+    margin-top: 0;
+  }
+
+  p {
+    padding-bottom: 1.35rem;
+    line-height: 1.5rem;
+  }
+
+  h3 {
+    padding-bottom: 1rem;
+    font-weight: 200;
+  }
+
+  i {
+    color: $secondaryBg;
+    padding-right: .5rem;
+  }
+
+  a.normal-link {
+    color: $secondaryBg;
+    display: inline-block;
+    width: 100%;
+    padding: .7rem .5rem;
+
+  &:hover {
+    background-color: lighten($text, 50%);
+    @include border-radius (5px);
+    }
+  }
+  article {
+    vertical-align: top;
+
+    p {
+      padding: 0 1rem 2.5rem 0;
+    }
+  }
+}
+
+ .small-i {
+
+    i {
+      color: $text;
+      font-size: .7rem;
+      position: relative;
+      top: -.4rem;
+      right: 0;
+    }
+   
+  }
+
+.small-note {
+  p {
+    width: 90%;
+    font-size: .8rem;
+    vertical-align: top;
+  }
+
+  i {
+    font-size: .8rem;
+    padding-right: .3rem;
+    vertical-align: top;
+  }
+}
+
+@include media-query(palm) {
+  .text-box {
+    padding: 1rem;
+
+    .pl {
+      padding-left: 0;
+    }
+
+    .map {
+      display:block;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/*------------------------------------------*\
+    TABLES
+\*------------------------------------------*/
+
+.normal-table {
+  width: 100%;
+  margin: 2rem 0;
+  border: 1px solid #ccc;
+  @extend .text-box;
+
+  @include border-radius(5px);
+
+  tr, td, th {
+    padding: .7em;
+
+  }
+
+  thead {
+    background: $secondaryBg;
+    color: #fff;
+  }
+}

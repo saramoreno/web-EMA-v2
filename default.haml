@@ -17,49 +17,7 @@
 
 
   %body
-    %header
-      .wrapper
-        .drop-bar 
-          %a{href:"#"} 
-            %i.fa.fa-align-justify 
-            Menu
-        .logo.inline-content>
-          %a{href:"default.html"} 
-            %img{src:"images/logo.png", alt:"logo"}/ 
-        %nav.main-nav.inline-content>
-          %ul
-            %li.active.inline-content
-              %a{href:"default.html"} Presentación
-            %li.inline-content
-              %a{href:"inscripcion.html"} Inscripción y matrícula
-            %li.inline-content
-              %a{href:"becas.html"} Becas y tasas
-            %li.inline-content
-              %a{href:"asignaturas.html"} Asignaturas
-            %li.inline-content
-              %a{href:"horarios.html"} Horarios
-            %li.inline-content
-              %a{href:"faq.html"} FAQ
-            %li.inline-content
-              %a{href:"contacto.html"} Contacto
-
-        #dropdown-menu
-          %ul 
-            %li 
-              %a{href:"default.html"} Presentación
-            %li 
-              %a{href:"inscripcion.html"} Inscripción y matrícula
-            %li 
-              %a{href:"becas.html"} Becas y tasas
-            %li 
-              %a{href:"asignaturas.html"} Asignaturas
-            %li 
-              %a{href:"horarios.html"} Horarios
-            %li 
-              %a{href:"faq.html"} FAQ
-            %li 
-              %a{href:"contacto.html"} Contacto
-
+    @import header.kit 
     .main-content
       .wrapper
         %h1.big-heading.centered Título Propio Experto en el Mundo Actual: Claves y Desafíos

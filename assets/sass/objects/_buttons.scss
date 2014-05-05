@@ -1,0 +1,30 @@
+/*------------------------------------------*\
+    Buttons
+\*------------------------------------------*/
+
+.btn {
+  padding: .8rem;
+  background-color: $secondaryBg;
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid darken($secondaryBg,10%);
+  outline: none;
+  display: inline-block;
+  margin-bottom: .4rem;
+
+  &:hover {
+    opacity: .8;
+  }
+  
+  @include border-radius(3px);
+
+  a, i {
+    color: #fff;
+  }
+}
+
+.btn-group {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}

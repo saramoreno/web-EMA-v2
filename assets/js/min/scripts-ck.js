@@ -1,0 +1,1 @@
+$(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}),$(function(){function n(){$("#dropdown-menu").slideToggle()}$(".drop-bar a").on("click",n)});

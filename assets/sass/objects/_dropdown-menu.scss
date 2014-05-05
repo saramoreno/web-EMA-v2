@@ -1,0 +1,33 @@
+/*------------------------------------------*\
+    Dropdown menu
+\*------------------------------------------*/
+
+#dropdown-menu {
+  display:none;
+
+  ul {
+    text-align: left;
+  }
+
+  li {
+    padding: .6rem 0;
+    border-bottom: 1px solid darken($secondaryBg, 3%);
+
+    &:last-child {
+      border:none;
+    }
+  }
+
+  a {
+    width: 100%;
+    padding: .6rem;
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    &:hover {
+      background-color: lighten($secondaryBg, 2%);
+    }
+  }
+}

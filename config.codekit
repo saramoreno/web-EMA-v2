@@ -91,17 +91,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/logo-EMA.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5565,
-		"inputAbbreviatedPath": "\/assets\/images\/logo-EMA.png",
-		"outputAbbreviatedPath": "\/assets\/images\/logo-EMA.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/images\/logo-uam2.png": {
 		"fileType": 32768,
 		"ignore": 0,

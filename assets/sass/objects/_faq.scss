@@ -5,10 +5,13 @@
 
   .faq {
     h3 {
-      font-size: 1.1rem;
       padding-bottom: .5rem;
       color: darken($text, 30%);
       padding-left: 2.5rem;
+
+      &.sm {
+        font-size: 1.1rem;
+      }
     }
 
     .heading {
@@ -26,6 +29,14 @@
     p {
       padding-left: 2.7rem;
       color: lighten($text, 20%);
+
+      a {
+        color: lighten($text, 20%);
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

@@ -760,6 +760,11 @@ header a {
     display: block;
   }
 }
+/* line 72, ../sass/objects/_header.scss */
+.active {
+  color: #003f23;
+}
+
 /*------------------------------------------*\
     text box
 \*------------------------------------------*/

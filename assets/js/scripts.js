@@ -19,3 +19,13 @@ $(function () {
     $("#dropdown-menu").slideToggle();
   }
 });
+
+//active
+
+$(function () {
+  $(".home a").on("click", ponActive);
+
+  function ponActive() {
+    $("this").addClass(active);
+  }
+});

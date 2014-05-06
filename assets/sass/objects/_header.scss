@@ -69,9 +69,6 @@ header {
   }
 }
 
-  .logo {
-    img {
-      //min-width:30px; 
-      //min-height:30px; 
-    }
-  }
+.active {
+  color: darken($secondaryBg, 20%);
+}

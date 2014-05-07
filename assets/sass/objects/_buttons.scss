@@ -3,14 +3,14 @@
 \*------------------------------------------*/
 
 .btn {
-  padding: .8rem;
+  padding: .8em;
   background-color: $secondaryBg;
   color: #fff;
   border: none;
   border-bottom: 2px solid darken($secondaryBg,10%);
   outline: none;
   display: inline-block;
-  margin-bottom: .4rem;
+  margin-bottom: .4em;
 
   &:hover {
     opacity: .8;

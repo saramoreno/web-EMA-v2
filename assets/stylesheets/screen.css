@@ -115,7 +115,7 @@ body {
 
 /* line 34, ../sass/base/_base.scss */
 section, article {
-  margin: 2.5rem 0;
+  margin: 2.5em 0;
 }
 
 /* Block Content */
@@ -272,7 +272,7 @@ input[type="radio"] {
 /* line 46, ../sass/base/_forms.scss */
 .basic-form {
   background: #fcfcfd;
-  padding: 0 0.625rem;
+  padding: 0 0.625em;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   background-clip: padding-box;
@@ -358,28 +358,28 @@ h4, .delta {
 
 /* line 35, ../sass/base/_headings.scss */
 .big-heading {
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: 200;
-  margin: 2rem 0 2rem 0;
+  margin: 1.5em 0 1.5em 0;
 }
 
 /* line 41, ../sass/base/_headings.scss */
 .normal-heading {
-  font-size: 1.875rem;
+  font-size: 1.875em;
   font-weight: 700;
 }
 
 /* line 46, ../sass/base/_headings.scss */
 .small-heading {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: 400;
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
 }
 
 @media only screen and (max-width: 49.92857em) {
   /* line 53, ../sass/base/_headings.scss */
   .big-heading {
-    font-size: 1.6rem;
+    font-size: 1.6em;
   }
 }
 /*------------------------------------*\
@@ -390,7 +390,7 @@ h4, .delta {
   width: 90%;
   margin: 0 auto;
   overflow: hidden;
-  padding: .7rem 0;
+  padding: .7em 0;
   height: auto;
   min-height: 100%;
 }
@@ -402,7 +402,7 @@ h4, .delta {
 
 /* line 19, ../sass/base/_layout.scss */
 section, article {
-  margin: 1.25rem 0;
+  margin: 1.25em 0;
 }
 
 /* line 23, ../sass/base/_layout.scss */
@@ -417,12 +417,12 @@ section, article {
 
 /* line 31, ../sass/base/_layout.scss */
 .mt {
-  margin-top: 1.25rem;
+  margin-top: 1.25em;
 }
 
 /* line 35, ../sass/base/_layout.scss */
 .mb {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.25em;
 }
 
 /*------------------------------------*\
@@ -614,8 +614,8 @@ footer {
   overflow: hidden;
   background: white;
   color: #65666b;
-  margin-top: 2rem;
-  padding: 2rem 0;
+  margin-top: 2em;
+  padding: 2em 0;
   -webkit-box-shadow: 1px 0 1px #65666b;
   -moz-box-shadow: 1px 0 1px #65666b;
   box-shadow: 1px 0 1px #65666b;
@@ -640,25 +640,25 @@ footer .logo-uam {
 /* line 31, ../sass/objects/_footer.scss */
 footer .complementary-info {
   width: 80%;
-  padding: 1.25rem;
+  padding: 1.25em;
   vertical-align: middle;
   text-align: center;
 }
 /* line 37, ../sass/objects/_footer.scss */
 footer .complementary-info i {
   color: #00a55b;
-  padding-right: .2rem;
-  font-size: 1.25rem;
+  padding-right: .2em;
+  font-size: 1.25em;
   display: inline-block;
 }
 /* line 44, ../sass/objects/_footer.scss */
 footer .complementary-info ul {
-  margin: 1rem 0;
+  margin: 1em 0;
 }
 /* line 48, ../sass/objects/_footer.scss */
 footer .complementary-info li {
   display: inline-block;
-  padding: .7rem;
+  padding: .7em;
   vertical-align: bottom;
 }
 /* line 54, ../sass/objects/_footer.scss */
@@ -667,7 +667,7 @@ footer .complementary-info p {
 }
 /* line 58, ../sass/objects/_footer.scss */
 footer .complementary-info p, footer .complementary-info a {
-  font-size: .8rem;
+  font-size: .8em;
 }
 
 @media only screen and (max-width: 49.92857em) {
@@ -682,7 +682,7 @@ footer .complementary-info p, footer .complementary-info a {
   ul.complementary-info {
     display: block;
     width: 100%;
-    padding: .7rem;
+    padding: .7em;
   }
 }
 /*------------------------------------------*\
@@ -690,7 +690,7 @@ footer .complementary-info p, footer .complementary-info a {
 \*------------------------------------------*/
 /* line 5, ../sass/objects/_header.scss */
 header {
-  background: #00a55b;
+  background-color: #00a55b;
   -webkit-box-shadow: 1px 0 1px #65666b;
   -moz-box-shadow: 1px 0 1px #65666b;
   box-shadow: 1px 0 1px #65666b;
@@ -702,7 +702,7 @@ header img {
 /* line 15, ../sass/objects/_header.scss */
 header a {
   color: #fff;
-  padding: .75rem;
+  padding: .75em;
 }
 
 /* line 21, ../sass/objects/_header.scss */
@@ -710,12 +710,12 @@ header a {
   text-align: right;
   width: 94%;
   vertical-align: middle;
-  padding-left: 2rem;
+  padding-left: 2em;
 }
 /* line 27, ../sass/objects/_header.scss */
 .main-nav a {
   display: block;
-  font-size: .9rem;
+  font-size: .9em;
   font-weight: 700;
 }
 /* line 32, ../sass/objects/_header.scss */
@@ -744,9 +744,9 @@ header a {
 .drop-bar a {
   display: none;
   position: absolute;
-  top: .5rem;
+  top: .5em;
   right: 0;
-  font-size: 1.15rem;
+  font-size: 1.15em;
 }
 
 @media screen and (max-width: 700px) {
@@ -775,7 +775,7 @@ header a {
   border-radius: 5px;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
-  padding: 1.25rem;
+  padding: 1.25em;
   margin: .7rem 0;
   background: #fff;
   -webkit-box-shadow: 1px 2px 2px #e7e7e8;
@@ -784,7 +784,7 @@ header a {
 }
 /* line 15, ../sass/objects/_text-box.scss */
 .text-box .pl, .normal-table .pl {
-  padding: 0 0 1.25rem 1.7rem;
+  padding: 0 0 1.25rem 1.7em;
 }
 /* line 19, ../sass/objects/_text-box.scss */
 .text-box .no-top, .normal-table .no-top {
@@ -792,25 +792,25 @@ header a {
 }
 /* line 23, ../sass/objects/_text-box.scss */
 .text-box p, .normal-table p {
-  padding-bottom: 1.35rem;
-  line-height: 1.5rem;
+  padding-bottom: 1.35em;
+  line-height: 1.5em;
 }
 /* line 28, ../sass/objects/_text-box.scss */
 .text-box h3, .normal-table h3 {
-  padding-bottom: 1rem;
+  padding-bottom: 1em;
   font-weight: 200;
 }
 /* line 33, ../sass/objects/_text-box.scss */
 .text-box i, .normal-table i {
   color: #00a55b;
-  padding-right: .5rem;
+  padding-right: .5em;
 }
 /* line 38, ../sass/objects/_text-box.scss */
 .text-box a.normal-link, .normal-table a.normal-link {
   color: #00a55b;
   display: inline-block;
   width: 100%;
-  padding: .7rem .5rem;
+  padding: .7rem .5em;
 }
 /* line 44, ../sass/objects/_text-box.scss */
 .text-box a.normal-link:hover, .normal-table a.normal-link:hover {
@@ -832,29 +832,29 @@ header a {
 /* line 60, ../sass/objects/_text-box.scss */
 .small-i i {
   color: #65666b;
-  font-size: .7rem;
+  font-size: .7em;
   position: relative;
-  top: -.4rem;
+  top: -.4em;
   right: 0;
 }
 
 /* line 71, ../sass/objects/_text-box.scss */
 .small-note p {
   width: 90%;
-  font-size: .8rem;
+  font-size: .8em;
   vertical-align: top;
 }
 /* line 77, ../sass/objects/_text-box.scss */
 .small-note i {
-  font-size: .8rem;
-  padding-right: .3rem;
+  font-size: .8em;
+  padding-right: .3em;
   vertical-align: top;
 }
 
 @media only screen and (max-width: 49.92857em) {
   /* line 85, ../sass/objects/_text-box.scss */
   .text-box, .normal-table {
-    padding: 1rem;
+    padding: 1em;
   }
   /* line 88, ../sass/objects/_text-box.scss */
   .text-box .pl, .normal-table .pl {
@@ -896,14 +896,14 @@ header a {
 \*------------------------------------------*/
 /* line 5, ../sass/objects/_buttons.scss */
 .btn {
-  padding: .8rem;
+  padding: .8em;
   background-color: #00a55b;
   color: #fff;
   border: none;
   border-bottom: 2px solid #00723f;
   outline: none;
   display: inline-block;
-  margin-bottom: .4rem;
+  margin-bottom: .4em;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   background-clip: padding-box;
@@ -950,7 +950,7 @@ header a {
   width: 100%;
   padding: .6rem;
   display: block;
-  font-size: 1rem;
+  font-size: 1em;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -972,13 +972,13 @@ header a {
 \*------------------------------------------*/
 /* line 7, ../sass/objects/_faq.scss */
 .text-box .faq h3, .normal-table .faq h3 {
-  padding-bottom: .5rem;
+  padding-bottom: .5em;
   color: #1b1b1c;
-  padding-left: 2.5rem;
+  padding-left: 2.5em;
 }
 /* line 12, ../sass/objects/_faq.scss */
 .text-box .faq h3.sm, .normal-table .faq h3.sm {
-  font-size: 1.1rem;
+  font-size: 1.1em;
 }
 /* line 17, ../sass/objects/_faq.scss */
 .text-box .faq .heading, .normal-table .faq .heading {
@@ -986,15 +986,15 @@ header a {
 }
 /* line 21, ../sass/objects/_faq.scss */
 .text-box .faq i, .normal-table .faq i {
-  font-size: 1.5rem;
-  padding-left: .3rem;
+  font-size: 1.5em;
+  padding-left: .3em;
   position: absolute;
-  top: .2rem;
+  top: .2em;
   left: 0;
 }
 /* line 29, ../sass/objects/_faq.scss */
 .text-box .faq p, .normal-table .faq p {
-  padding-left: 2.7rem;
+  padding-left: 2.7em;
   color: #98999e;
 }
 /* line 33, ../sass/objects/_faq.scss */

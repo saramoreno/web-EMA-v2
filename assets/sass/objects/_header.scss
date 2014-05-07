@@ -3,8 +3,8 @@
 \*------------------------------------------*/
 
 header {
-  background: $secondaryBg;
-  //min-height: 3rem;
+  background-color: $secondaryBg;
+  //min-height: 3em;
 
   @include box-shadow(1px 0 1px $text);
 
@@ -14,7 +14,7 @@ header {
 
   a {
     color: #fff;
-    padding: .75rem;
+    padding: .75em;
   }
 }
 
@@ -22,11 +22,11 @@ header {
     text-align: right;
     width: 94%;
     vertical-align: middle;
-    padding-left: 2rem;
+    padding-left: 2em;
 
     a {
       display:block;
-      font-size: .9rem;
+      font-size: .9em;
       font-weight: 700;
 
     &:hover {
@@ -49,10 +49,10 @@ header {
   a {
     display:none;
     position: absolute;
-    top: .5rem;
+    top: .5em;
     right:0;
 
-    font-size: 1.15rem;
+    font-size: 1.15em;
   }
 }
 

@@ -119,98 +119,98 @@ section, article {
 }
 
 /* Block Content */
-/* line 41, ../sass/base/_base.scss */
+/* line 40, ../sass/base/_base.scss */
 h1, h2, h2, h3, h4, h6 {
   font-size: 1em;
   font-weight: bold;
 }
 
-/* line 46, ../sass/base/_base.scss */
+/* line 45, ../sass/base/_base.scss */
 p {
   line-height: 1.3;
 }
 
-/* line 50, ../sass/base/_base.scss */
+/* line 49, ../sass/base/_base.scss */
 .normal-text {
   color: #65666b;
 }
 
 /* Inline Content */
-/* line 56, ../sass/base/_base.scss */
+/* line 55, ../sass/base/_base.scss */
 a {
   color: #00a55b;
   text-decoration: none;
 }
-/* line 60, ../sass/base/_base.scss */
+/* line 59, ../sass/base/_base.scss */
 a:active {
   outline: none;
 }
-/* line 64, ../sass/base/_base.scss */
+/* line 63, ../sass/base/_base.scss */
 a:focus {
   -moz-outline-syle: none;
 }
 
-/* line 69, ../sass/base/_base.scss */
+/* line 68, ../sass/base/_base.scss */
 p a {
   color: #f5f6f7;
 }
 
-/* line 74, ../sass/base/_base.scss */
+/* line 73, ../sass/base/_base.scss */
 .centered {
   text-align: center;
 }
 
-/* line 77, ../sass/base/_base.scss */
+/* line 76, ../sass/base/_base.scss */
 .left-align {
   text-align: left;
 }
 
-/* line 80, ../sass/base/_base.scss */
+/* line 79, ../sass/base/_base.scss */
 .right-align {
   text-align: right;
 }
 
-/* line 85, ../sass/base/_base.scss */
+/* line 84, ../sass/base/_base.scss */
 .left {
   float: left;
 }
 
-/* line 88, ../sass/base/_base.scss */
+/* line 87, ../sass/base/_base.scss */
 .right {
   float: right;
 }
 
-/* line 91, ../sass/base/_base.scss */
+/* line 90, ../sass/base/_base.scss */
 .center {
   margin: 0 auto;
 }
 
-/* line 94, ../sass/base/_base.scss */
+/* line 93, ../sass/base/_base.scss */
 .no-float {
   float: none;
 }
 
-/* line 98, ../sass/base/_base.scss */
+/* line 97, ../sass/base/_base.scss */
 .inline-content {
   display: table-cell;
 }
 
-/* line 102, ../sass/base/_base.scss */
+/* line 101, ../sass/base/_base.scss */
 .inline-block {
   display: inline-block;
 }
 
-/* line 108, ../sass/base/_base.scss */
+/* line 107, ../sass/base/_base.scss */
 .t-thin {
   font-weight: 100;
 }
 
-/* line 112, ../sass/base/_base.scss */
+/* line 111, ../sass/base/_base.scss */
 .t-bold {
   font-weight: 700;
 }
 
-/* line 116, ../sass/base/_base.scss */
+/* line 115, ../sass/base/_base.scss */
 .t-code {
   font-family: "Cousine";
   opacity: 0.6;
@@ -610,7 +610,7 @@ table {
     FOOTER
 \*------------------------------------------*/
 /* line 5, ../sass/objects/_footer.scss */
-footer {
+.main-footer {
   overflow: hidden;
   background: white;
   color: #65666b;
@@ -621,52 +621,52 @@ footer {
   box-shadow: 1px 0 1px #65666b;
 }
 /* line 12, ../sass/objects/_footer.scss */
-footer img {
+.main-footer img {
   min-width: 100%;
 }
 /* line 18, ../sass/objects/_footer.scss */
-footer a {
+.main-footer a {
   color: #65666b;
 }
 /* line 21, ../sass/objects/_footer.scss */
-footer a:hover {
+.main-footer a:hover {
   text-decoration: underline;
 }
 /* line 26, ../sass/objects/_footer.scss */
-footer .logo-uam {
+.main-footer .logo-uam {
   width: 20%;
   vertical-align: middle;
 }
 /* line 31, ../sass/objects/_footer.scss */
-footer .complementary-info {
+.main-footer .complementary-info {
   width: 80%;
   padding: 1.25em;
   vertical-align: middle;
   text-align: center;
 }
 /* line 37, ../sass/objects/_footer.scss */
-footer .complementary-info i {
+.main-footer .complementary-info i {
   color: #00a55b;
   padding-right: .2em;
   font-size: 1.25em;
   display: inline-block;
 }
 /* line 44, ../sass/objects/_footer.scss */
-footer .complementary-info ul {
+.main-footer .complementary-info ul {
   margin: 1em 0;
 }
 /* line 48, ../sass/objects/_footer.scss */
-footer .complementary-info li {
+.main-footer .complementary-info li {
   display: inline-block;
   padding: .7em;
   vertical-align: bottom;
 }
 /* line 54, ../sass/objects/_footer.scss */
-footer .complementary-info p {
+.main-footer .complementary-info p {
   display: inline-block;
 }
 /* line 58, ../sass/objects/_footer.scss */
-footer .complementary-info p, footer .complementary-info a {
+.main-footer .complementary-info p, .main-footer .complementary-info a {
   font-size: .8em;
 }
 
@@ -974,7 +974,7 @@ header a {
 .text-box .faq h3, .normal-table .faq h3 {
   padding-bottom: .5em;
   color: #1b1b1c;
-  padding-left: 2.5em;
+  padding-left: 2em;
 }
 /* line 12, ../sass/objects/_faq.scss */
 .text-box .faq h3.sm, .normal-table .faq h3.sm {

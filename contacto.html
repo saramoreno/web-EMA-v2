@@ -1,29 +1,56 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
   <head>
     <meta charset='utf-8'>
     <meta content='width=device-width' name='viewport'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Mundo Actual</title>
     <!--[if lt IE 9]>
       <script src='js/dependencies/html5shiv.js'></script>
     <![endif]-->
+
+     <!--[if IE]>
+      <link rel="stylesheet" type="text/css" href="assets/stylesheets/ie.css" />
+    <![endif]-->
+
+    <!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" href="assets/stylesheets/ie7.css" />
+    <![endif]-->
+
+    <!--[if IE]>
+    <script type="text/javascript">
+     document.createElement("nav");
+     document.createElement("header");
+     document.createElement("footer");
+     document.createElement("section");
+     document.createElement("article");
+     document.createElement("aside");
+     document.createElement("hgroup");
+     document.createElement("iframe");
+    </script>
+    <![endif]-->
+
     <link href='assets/stylesheets/screen.css' rel='stylesheet'>
     <link href='assets/stylesheets/font-awesome.min.css' rel='stylesheet'>
+    <link href='assets/stylesheets/flexslider.css' rel='stylesheet'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   </head>
-  <body>
-
-              <header>
+  <body>            
+<body>
+  <header>
     <div class='wrapper'>
       <div class='drop-bar'>
         <a href='#'>
           <i class='fa fa-align-justify'></i>
           Menu
         </a>
-      </div><div class='logo inline-content'>
+      </div><!--end of drop-bar-->
+      <div class='logo inline-content'>
         <a href='index.html'>
           <img alt='logo' src='assets/images/logo.png'>
         </a>
-      </div><nav class='main-nav inline-content'>
+      </div><!--end of logo-->
+      <div class='main-nav inline-content'>
         <ul>
           <li class='unactive inline-content'>
             <a href='index.html'>Presentación</a>
@@ -47,7 +74,9 @@
             <a href='contacto.html'>Contacto</a>
           </li>
         </ul>
-      </nav><div id='dropdown-menu'>
+      </div>
+
+      <div id='dropdown-menu'>
         <ul>
           <li>
             <a href='default.html'>Presentación</a>
@@ -71,13 +100,10 @@
             <a href='contacto.html'>Contacto</a>
           </li>
         </ul>
-      </div>
-    </div>
+      </div><!--end of dropdown-menu-->
+    </div><!--end of wrapper-->
   </header>
-</body>
-</html>
   
-    <div class='main-content'></div>
     <div class='main-content'>
       <div class='wrapper'>
         <h2 class='big-heading'>Contacto</h2>
@@ -116,45 +142,42 @@
               </p>
             </div>
             
-            
-            
-            
-            
-            
-          </article><article class='map two-fifths inline-content'>
+          </article>
+          <article class='map two-fifths inline-content'>
             <div id='mapa'>
-              <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Calle+Francisco+Tom%C3%A1s+y+Valiente,+2,+Madrid,+Spain&amp;aq=0&amp;oq=calle+fra&amp;sll=40.480643,-3.699303&amp;sspn=0.178358,0.329247&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Francisco+Tom%C3%A1s+y+Valiente,+2,+28049+Madrid,+Spain&amp;ll=40.54395,-3.698469&amp;spn=0.011137,0.020578&amp;t=m&amp;z=14&amp;iwloc=&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Calle+Francisco+Tom%C3%A1s+y+Valiente,+2,+Madrid,+Spain&amp;aq=0&amp;oq=calle+fra&amp;sll=40.480643,-3.699303&amp;sspn=0.178358,0.329247&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Francisco+Tom%C3%A1s+y+Valiente,+2,+28049+Madrid,+Spain&amp;ll=40.54395,-3.698469&amp;spn=0.011137,0.020578&amp;t=m&amp;z=14&amp;iwloc=" style="color:#0000FF;text-align:left"></a></small>
+              <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Calle+Francisco+Tom%C3%A1s+y+Valiente,+2,+Madrid,+Spain&amp;aq=0&amp;oq=calle+fra&amp;sll=40.480643,-3.699303&amp;sspn=0.178358,0.329247&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Francisco+Tom%C3%A1s+y+Valiente,+2,+28049+Madrid,+Spain&amp;ll=40.54395,-3.698469&amp;spn=0.011137,0.020578&amp;t=m&amp;z=14&amp;iwloc=&amp;output=embed"></iframe><br />
             </div>
           </article></div>
       </div>
     </div>
 
-    <footer>
-  <div class='wrapper'>
-    <div class='logo-uam inline-content'>
-      <a href='https://www.uam.es'>
-        <img alt='uam' src='assets/images/logo-uam2.png'>
-      </a>
+    
+  <footer class="main-footer">
+    <div class='wrapper'>
+      <div class='logo-uam inline-content'>
+        <a href='https://www.uam.es'>
+          <img alt='uam' src='assets/images/logo-uam2.png'>
+        </a>
+      </div>
+      <div class='complementary-info inline-content'>
+        <h4 class='one-whole'>Título Propio Experto en el Mundo Actual: Claves y Desafios</h4>
+        <ul>
+          <li>
+            <i class='fa fa-map-marker'></i>
+            <p>Centro de Estudios de Postgrado, planta 2 aula 1</p>
+          </li>
+          <li>
+            <i class='fa fa-envelope'></i>
+            <a href='mailto:mundoactual@uam.es'>mundoactual@uam.es</a>
+          </li>
+          <li>
+            <i class='fa fa-phone'></i>
+            <p>91 4976526</p>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class='complementary-info inline-content'>
-      <h4 class='one-whole'>Título Propio Experto en el Mundo Actual: Claves y Desafios</h4>
-      <ul>
-        <li>
-          <i class='fa fa-map-marker'></i>
-          <p>Centro de Estudios de Postgrado, planta 2 aula 1</p>
-        </li>
-        <li>
-          <i class='fa fa-envelope'></i>
-          <a href='mailto:mundoactual@uam.es'>mundoactual@uam.es</a>
-        </li>
-        <li>
-          <i class='fa fa-phone'></i>
-          <p>91 4976526</p>
-        </li>
-      </ul>
-    </div>
-  </div>
-</footer>
+  </footer>
     <!-- /Scripts -->
     <script src='assets/js/jquery-1.10.2.min.js'></script>
     <script src='assets/js/scripts.js'></script>

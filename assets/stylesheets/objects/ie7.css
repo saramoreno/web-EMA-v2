@@ -1,0 +1,27 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE 7]>
+ *   <link href="assets/stylesheets/ie7.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 8, ../../sass/objects/ie7.scss */
+.logo {
+  display: inline-block;
+  width: 19%;
+  vertical-align: top;
+}
+
+/* line 14, ../../sass/objects/ie7.scss */
+.main-nav ul {
+  display: inline-block;
+  width: 80%;
+  vertical-align: top;
+  position: relative;
+  top: -2em;
+  right: 0;
+  text-align: right;
+}
+
+/* line 24, ../../sass/objects/ie7.scss */
+.main-nav li {
+  float: left;
+}

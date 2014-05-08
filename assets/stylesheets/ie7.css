@@ -1,0 +1,87 @@
+/* line 2, ../sass/ie7.scss */
+.logo {
+  display: inline-block;
+  width: 19%;
+  vertical-align: top;
+}
+
+/* line 8, ../sass/ie7.scss */
+.main-nav ul {
+  display: inline-block;
+  width: 80%;
+  vertical-align: top;
+  position: relative;
+  top: -2em;
+  right: 0;
+}
+
+/* line 17, ../sass/ie7.scss */
+.main-nav li {
+  float: left;
+}
+
+/* line 21, ../sass/ie7.scss */
+.main-nav li a {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+/* line 26, ../sass/ie7.scss */
+.logo-uam img {
+  display: inline-block;
+  float: left;
+}
+
+/* line 31, ../sass/ie7.scss */
+.complementary-info {
+  float: right;
+  position: relative;
+  top: -5em;
+  right: 0;
+}
+
+/* line 38, ../sass/ie7.scss */
+.complementary-info li, .complementary-info a {
+  float: left;
+  font-size: 1.25em;
+  padding: 0 1em;
+}
+
+/* line 44, ../sass/ie7.scss */
+.main-footer {
+  background-color: green;
+}
+
+/* line 48, ../sass/ie7.scss */
+.complementary-info ul {
+  position: relative;
+  left: 10em;
+  top: 0;
+}
+
+/* line 54, ../sass/ie7.scss */
+.faq h3, .faq p {
+  position: relative;
+  right: 2em;
+  top: 0;
+}
+
+/* line 60, ../sass/ie7.scss */
+.text-box {
+  padding: 1em;
+}
+
+/* line 64, ../sass/ie7.scss */
+a.normal-link {
+  position: relative;
+  left: -.2em;
+  top: 0;
+  padding: 1em 0.5em;
+}
+
+/* line 71, ../sass/ie7.scss */
+.small-note {
+  position: relative;
+  top: -2.5em;
+  right: 0;
+}

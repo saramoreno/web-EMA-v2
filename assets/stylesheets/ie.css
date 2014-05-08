@@ -1,5 +1,39 @@
 /* Welcome to Compass. Use this file to write IE specific override styles.
  * Import this file using the following HTML or equivalent:
  * <!--[if IE]>
- *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ *   <link href="assets/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
  * <![endif]--> */
+/* line 9, ../sass/ie.scss */
+a.flex-next, a.flex-prev {
+  color: #4d4d4d;
+}
+
+/* line 13, ../sass/ie.scss */
+a {
+  outline: none;
+}
+
+/* line 17, ../sass/ie.scss */
+a.normal-link {
+  padding: 1.25em;
+}
+
+/* line 21, ../sass/ie.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 27, ../sass/ie.scss */
+.main-footer {
+  border-top: 1px solid #ccc;
+}
+
+/* line 31, ../sass/ie.scss */
+.text-box {
+  margin-bottom: 2em;
+}
+
+/* line 35, ../sass/ie.scss */
+.btn .one-half {
+  width: 50%;
+}

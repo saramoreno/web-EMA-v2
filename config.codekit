@@ -47,6 +47,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/chino.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 350427,
+		"inputAbbreviatedPath": "\/assets\/images\/chino.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/chino.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/img1.png": {
 		"fileType": 32768,
 		"ignore": 0,

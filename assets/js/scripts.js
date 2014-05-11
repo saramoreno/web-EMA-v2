@@ -4,12 +4,6 @@
  * ----------------------------------------------------------------------------------------
  */
 
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide"
-  });
-});
-
 //menu desplegable
 
 $(function () {

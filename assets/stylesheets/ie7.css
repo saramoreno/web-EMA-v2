@@ -26,13 +26,13 @@
   padding-left: 1em;
 }
 
-/* line 26, ../sass/ie7.scss */
+/* line 28, ../sass/ie7.scss */
 .logo-uam img {
   display: inline-block;
   float: left;
 }
 
-/* line 31, ../sass/ie7.scss */
+/* line 33, ../sass/ie7.scss */
 .complementary-info {
   float: right;
   position: relative;
@@ -40,38 +40,33 @@
   right: 0;
 }
 
-/* line 38, ../sass/ie7.scss */
+/* line 40, ../sass/ie7.scss */
 .complementary-info li, .complementary-info a {
   float: left;
   font-size: 1.25em;
   padding: 0 1em;
 }
 
-/* line 44, ../sass/ie7.scss */
-.main-footer {
-  background-color: green;
-}
-
-/* line 48, ../sass/ie7.scss */
+/* line 46, ../sass/ie7.scss */
 .complementary-info ul {
   position: relative;
   left: 10em;
   top: 0;
 }
 
-/* line 54, ../sass/ie7.scss */
+/* line 55, ../sass/ie7.scss */
 .faq h3, .faq p {
   position: relative;
   right: 2em;
   top: 0;
 }
 
-/* line 60, ../sass/ie7.scss */
+/* line 61, ../sass/ie7.scss */
 .text-box {
   padding: 1em;
 }
 
-/* line 64, ../sass/ie7.scss */
+/* line 65, ../sass/ie7.scss */
 a.normal-link {
   position: relative;
   left: -.2em;
@@ -79,9 +74,27 @@ a.normal-link {
   padding: 1em 0.5em;
 }
 
-/* line 71, ../sass/ie7.scss */
+/* line 72, ../sass/ie7.scss */
 .small-note {
   position: relative;
   top: -2.5em;
   right: 0;
+}
+
+/* line 78, ../sass/ie7.scss */
+.flex-direction-nav a {
+  visibility: hidden;
+}
+
+/* line 84, ../sass/ie7.scss */
+.btn-one, .btn-download {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* line 89, ../sass/ie7.scss */
+.btn-group .btn {
+  box-sizing: border-box;
+  width: 47%;
+  float: left;
 }

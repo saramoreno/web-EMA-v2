@@ -1,14 +1,14 @@
 //header 
+
 .logo {
-  display: inline-block;
+  float: left;
   width: 19%;
   vertical-align: top;
 }
 
 .main-nav ul {
-  display: inline-block;
+  float: right;
   width: 80%;
-  vertical-align: top;
   position: relative;
   top: -2em;
   right: 0;
@@ -25,30 +25,34 @@
 
 //footer
 
-.logo-uam  img {
-  display: inline-block;
-  float: left;
+.logo-uam {
+  margin: 0 auto;
 }
 
 .complementary-info {
-  float: right;
   position: relative;
-  top: -5em;
-  right: 0;
+  top: 2em;
+  right: 1em;
+  margin: 0 auto;
 }
 
-.complementary-info li, .complementary-info a{
+.complementary-info li, .complementary-info a {
+  display: inline-block;
+  font-size: 18px;
+}
+
+//buttons
+
+.btn-one, .btn-download {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.btn-group .btn {
+  box-sizing: border-box;
+  width: 47%;
   float: left;
-  font-size: 1.25em;
-  padding: 0 1em;
 }
-
-.complementary-info ul {
-  position: relative;
-  left: 10em;
-  top: 0;
-}
-
 
 //text left-alignment
 
@@ -73,21 +77,4 @@ a.normal-link {
   position: relative;
   top: -2.5em;
   right: 0;
-}
-
-.flex-direction-nav a {
-  visibility: hidden;
-}
-
-//buttons
-
-.btn-one, .btn-download {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.btn-group .btn {
-  box-sizing: border-box;
-  width: 47%;
-  float: left;
 }

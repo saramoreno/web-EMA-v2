@@ -11,21 +11,25 @@
             <div class='flexslider'>
               <ul class='slides'>
                 <li>
-                  <img alt='' src='assets/images/img2.jpg'>
+                  <img class="ie-display" alt='ONU' src='assets/images/img2.jpg'>
+                </li>
+
+                <!--[if !IE 6]> -->
+                <li>
+                  <img alt='15-M' src='assets/images/img1.jpg'>
                 </li>
                 <li>
-                  <img alt='' src='assets/images/img1.jpg'>
-                </li>
-                <li>
-                  <img alt='' src='assets/images/img3.jpg'>
+                  <img alt='Prestige' src='assets/images/img3.jpg'>
                 </li>
                  <li>
-                  <img alt='' src='assets/images/img5.jpg'>
+                  <img alt='Muro de Berlin' src='assets/images/img5.jpg'>
                 </li>
 
                 <li>
-                  <img alt='' src='assets/images/img6.jpg'>
+                  <img alt='Plaza Tiananmen' src='assets/images/img6.jpg'>
                 </li>
+
+                 <!-- <![endif]-->
               </ul>
             </div>
           </div>
@@ -52,8 +56,33 @@
    
   <!-- /Scripts -->
   <script src='assets/js/jquery-1.10.2.min.js'></script>
-  <!-- /script{src:"js/jqFancyTransitions.1.8.min.js"} -->
-  <script src='assets/js/jquery.flexslider-min.js'></script>
+
+  <!-- [if gt IE 6]>
+    <script src='assets/js/jquery.flexslider-min.js'></script>
+    <script type="text/javascript">
+
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide"
+        });
+      });
+
+    </script>
+  <![endif]-->
+
+  <!--[if !IE 6]> -->
+    <script src='assets/js/jquery.flexslider-min.js'></script>
+    <script type="text/javascript">
+
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide"
+        });
+      });
+
+    </script>
+  <!-- <![endif]-->
+
   <script src='assets/js/scripts.js'></script>
 </body>
 </html>

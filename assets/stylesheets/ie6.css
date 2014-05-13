@@ -44,32 +44,59 @@
   font-size: 18px;
 }
 
-/* line 46, ../sass/ie6.scss */
+/* line 44, ../sass/ie6.scss */
+.faq h3 {
+  position: relative;
+  right: 1em;
+  top: 0;
+}
+
+/* line 50, ../sass/ie6.scss */
+.faq p {
+  position: relative;
+  top: 0;
+  right: 2.5em;
+}
+
+/* line 56, ../sass/ie6.scss */
+.text-box .desc {
+  position: relative;
+  top: 0;
+  left: .5em;
+}
+
+/* line 63, ../sass/ie6.scss */
+.text-box .btn {
+  width: 200px;
+  text-align: center;
+}
+
+/* line 70, ../sass/ie6.scss */
 .btn-one, .btn-download {
   width: 50%;
   margin: 0 auto;
 }
 
-/* line 51, ../sass/ie6.scss */
+/* line 75, ../sass/ie6.scss */
 .btn-group .btn {
   box-sizing: border-box;
   width: 47%;
   float: left;
 }
 
-/* line 59, ../sass/ie6.scss */
-.faq h3, .faq p {
+/* line 83, ../sass/ie6.scss */
+.faq h3, .faq li {
   position: relative;
   right: 2em;
   top: 0;
 }
 
-/* line 65, ../sass/ie6.scss */
+/* line 89, ../sass/ie6.scss */
 .text-box {
   padding: 1em;
 }
 
-/* line 69, ../sass/ie6.scss */
+/* line 93, ../sass/ie6.scss */
 a.normal-link {
   position: relative;
   left: -.2em;
@@ -77,7 +104,7 @@ a.normal-link {
   padding: 1em 0.5em;
 }
 
-/* line 76, ../sass/ie6.scss */
+/* line 100, ../sass/ie6.scss */
 .small-note {
   position: relative;
   top: -2.5em;

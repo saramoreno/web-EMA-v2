@@ -20,7 +20,11 @@
     margin-top: 0;
   }
 
-  p {
+  .btn span.fa {
+    color: #fff;
+  }
+
+  p, li{
     padding-bottom: 1.35em;
     line-height: 1.5em;
   }
@@ -30,7 +34,7 @@
     font-weight: 200;
   }
 
-  i {
+  span.fa{
     color: $secondaryBg;
     padding-right: .5em;
   }
@@ -57,7 +61,7 @@
 
  .small-i {
 
-    i {
+    span {
       color: $text;
       font-size: .7em;
       position: relative;
@@ -74,7 +78,7 @@
     vertical-align: top;
   }
 
-  i {
+  span {
     font-size: .8em;
     padding-right: .3em;
     vertical-align: top;

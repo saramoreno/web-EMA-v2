@@ -55,18 +55,38 @@
 }
 
 /* line 55, ../sass/ie7.scss */
-.faq h3, .faq p {
+.text-box .desc {
   position: relative;
-  right: 2em;
+  top: 0;
+  left: .5em;
+}
+
+/* line 62, ../sass/ie7.scss */
+.text-box .btn {
+  width: 200px;
+  text-align: center;
+}
+
+/* line 67, ../sass/ie7.scss */
+.faq h3 {
+  position: relative;
+  right: 1.5em;
   top: 0;
 }
 
-/* line 61, ../sass/ie7.scss */
+/* line 73, ../sass/ie7.scss */
+.faq p {
+  position: relative;
+  top: 0;
+  right: 2em;
+}
+
+/* line 79, ../sass/ie7.scss */
 .text-box {
   padding: 1em;
 }
 
-/* line 65, ../sass/ie7.scss */
+/* line 83, ../sass/ie7.scss */
 a.normal-link {
   position: relative;
   left: -.2em;
@@ -74,25 +94,25 @@ a.normal-link {
   padding: 1em 0.5em;
 }
 
-/* line 72, ../sass/ie7.scss */
+/* line 90, ../sass/ie7.scss */
 .small-note {
   position: relative;
   top: -2.5em;
   right: 0;
 }
 
-/* line 78, ../sass/ie7.scss */
+/* line 96, ../sass/ie7.scss */
 .flex-direction-nav a {
   visibility: hidden;
 }
 
-/* line 84, ../sass/ie7.scss */
+/* line 102, ../sass/ie7.scss */
 .btn-one, .btn-download {
   width: 50%;
   margin: 0 auto;
 }
 
-/* line 89, ../sass/ie7.scss */
+/* line 107, ../sass/ie7.scss */
 .btn-group .btn {
   box-sizing: border-box;
   width: 47%;

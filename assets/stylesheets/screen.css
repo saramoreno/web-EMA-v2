@@ -425,50 +425,50 @@ section, article {
   margin-bottom: 1.25em;
 }
 
+/* line 39, ../sass/base/_layout.scss */
+.ml {
+  margin-left: 1.5em;
+}
+
 /*------------------------------------*\
     $GRIDS
 \*------------------------------------*/
 /* Grid Container */
-/* line 44, ../sass/base/_layout.scss */
+/* line 48, ../sass/base/_layout.scss */
 .g {
   letter-spacing: -0.35em;
 }
-/* line 46, ../sass/base/_layout.scss */
+/* line 50, ../sass/base/_layout.scss */
 .g > * {
   letter-spacing: normal;
 }
 
 /* Grid Item */
-/* line 52, ../sass/base/_layout.scss */
+/* line 56, ../sass/base/_layout.scss */
 .gi {
   letter-spacing: normal;
 }
 @media only screen and (min-width: 50em) {
-  /* line 52, ../sass/base/_layout.scss */
+  /* line 56, ../sass/base/_layout.scss */
   .gi {
     display: inline-block;
     vertical-align: top;
   }
 }
 
-/* line 63, ../sass/base/_layout.scss */
+/* line 67, ../sass/base/_layout.scss */
 .mr {
   margin-right: 1%;
 }
 
-/* line 67, ../sass/base/_layout.scss */
+/* line 71, ../sass/base/_layout.scss */
 .ml {
   margin-left: 1%;
 }
 
-/* line 71, ../sass/base/_layout.scss */
+/* line 75, ../sass/base/_layout.scss */
 .half-width {
   width: 49%;
-}
-
-/* line 75, ../sass/base/_layout.scss */
-.forty-width {
-  width: 39%;
 }
 
 /* line 79, ../sass/base/_layout.scss */
@@ -477,8 +477,8 @@ section, article {
 }
 
 /* line 83, ../sass/base/_layout.scss */
-.sixty-width {
-  width: 59%;
+.forty-width {
+  width: 39%;
 }
 
 /* line 87, ../sass/base/_layout.scss */
@@ -487,11 +487,16 @@ section, article {
 }
 
 /* line 91, ../sass/base/_layout.scss */
+.sixty-width {
+  width: 59%;
+}
+
+/* line 95, ../sass/base/_layout.scss */
 .onethird-width {
   width: 32.33%;
 }
 
-/* line 95, ../sass/base/_layout.scss */
+/* line 99, ../sass/base/_layout.scss */
 .eighty-width {
   width: 79%;
 }
@@ -645,7 +650,7 @@ table {
   text-align: center;
 }
 /* line 37, ../sass/objects/_footer.scss */
-.main-footer .complementary-info i {
+.main-footer .complementary-info span {
   color: #00a55b;
   padding-right: .2em;
   font-size: 1.25em;
@@ -791,28 +796,32 @@ header a {
   margin-top: 0;
 }
 /* line 23, ../sass/objects/_text-box.scss */
-.text-box p, .normal-table p {
+.text-box .btn span.fa, .normal-table .btn span.fa {
+  color: #fff;
+}
+/* line 27, ../sass/objects/_text-box.scss */
+.text-box p, .normal-table p, .text-box li, .normal-table li {
   padding-bottom: 1.35em;
   line-height: 1.5em;
 }
-/* line 28, ../sass/objects/_text-box.scss */
+/* line 32, ../sass/objects/_text-box.scss */
 .text-box h3, .normal-table h3 {
   padding-bottom: 1em;
   font-weight: 200;
 }
-/* line 33, ../sass/objects/_text-box.scss */
-.text-box i, .normal-table i {
+/* line 37, ../sass/objects/_text-box.scss */
+.text-box span.fa, .normal-table span.fa {
   color: #00a55b;
   padding-right: .5em;
 }
-/* line 38, ../sass/objects/_text-box.scss */
+/* line 42, ../sass/objects/_text-box.scss */
 .text-box a.normal-link, .normal-table a.normal-link {
   color: #00a55b;
   display: inline-block;
   width: 100%;
   padding: .7rem .5em;
 }
-/* line 44, ../sass/objects/_text-box.scss */
+/* line 48, ../sass/objects/_text-box.scss */
 .text-box a.normal-link:hover, .normal-table a.normal-link:hover {
   background-color: #e7e7e8;
   -webkit-border-radius: 5px;
@@ -820,17 +829,17 @@ header a {
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
 }
-/* line 49, ../sass/objects/_text-box.scss */
+/* line 53, ../sass/objects/_text-box.scss */
 .text-box article, .normal-table article {
   vertical-align: top;
 }
-/* line 52, ../sass/objects/_text-box.scss */
+/* line 56, ../sass/objects/_text-box.scss */
 .text-box article p, .normal-table article p {
   padding: 0 1rem 2.5rem 0;
 }
 
-/* line 60, ../sass/objects/_text-box.scss */
-.small-i i {
+/* line 64, ../sass/objects/_text-box.scss */
+.small-i span {
   color: #65666b;
   font-size: .7em;
   position: relative;
@@ -838,29 +847,29 @@ header a {
   right: 0;
 }
 
-/* line 71, ../sass/objects/_text-box.scss */
+/* line 75, ../sass/objects/_text-box.scss */
 .small-note p {
   width: 90%;
   font-size: .8em;
   vertical-align: top;
 }
-/* line 77, ../sass/objects/_text-box.scss */
-.small-note i {
+/* line 81, ../sass/objects/_text-box.scss */
+.small-note span {
   font-size: .8em;
   padding-right: .3em;
   vertical-align: top;
 }
 
 @media only screen and (max-width: 49.92857em) {
-  /* line 85, ../sass/objects/_text-box.scss */
+  /* line 89, ../sass/objects/_text-box.scss */
   .text-box, .normal-table {
     padding: 1em;
   }
-  /* line 88, ../sass/objects/_text-box.scss */
+  /* line 92, ../sass/objects/_text-box.scss */
   .text-box .pl, .normal-table .pl {
     padding-left: 0;
   }
-  /* line 92, ../sass/objects/_text-box.scss */
+  /* line 96, ../sass/objects/_text-box.scss */
   .text-box .map, .normal-table .map {
     display: block;
     margin: 0 auto;
@@ -985,7 +994,7 @@ header a {
   position: relative;
 }
 /* line 21, ../sass/objects/_faq.scss */
-.text-box .faq i, .normal-table .faq i {
+.text-box .faq span, .normal-table .faq span {
   font-size: 1.5em;
   padding-left: .3em;
   position: absolute;

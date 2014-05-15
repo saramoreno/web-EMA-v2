@@ -39,6 +39,10 @@
     padding-right: .5em;
   }
 
+  span.fa-asterisk {
+    color: $text;
+  }
+
   a.normal-link {
     color: $secondaryBg;
     display: inline-block;

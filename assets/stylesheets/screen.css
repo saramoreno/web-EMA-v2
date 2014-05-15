@@ -815,13 +815,17 @@ header a {
   padding-right: .5em;
 }
 /* line 42, ../sass/objects/_text-box.scss */
+.text-box span.fa-asterisk, .normal-table span.fa-asterisk {
+  color: #65666b;
+}
+/* line 46, ../sass/objects/_text-box.scss */
 .text-box a.normal-link, .normal-table a.normal-link {
   color: #00a55b;
   display: inline-block;
   width: 100%;
   padding: .7rem .5em;
 }
-/* line 48, ../sass/objects/_text-box.scss */
+/* line 52, ../sass/objects/_text-box.scss */
 .text-box a.normal-link:hover, .normal-table a.normal-link:hover {
   background-color: #e7e7e8;
   -webkit-border-radius: 5px;
@@ -829,16 +833,16 @@ header a {
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
 }
-/* line 53, ../sass/objects/_text-box.scss */
+/* line 57, ../sass/objects/_text-box.scss */
 .text-box article, .normal-table article {
   vertical-align: top;
 }
-/* line 56, ../sass/objects/_text-box.scss */
+/* line 60, ../sass/objects/_text-box.scss */
 .text-box article p, .normal-table article p {
   padding: 0 1rem 2.5rem 0;
 }
 
-/* line 64, ../sass/objects/_text-box.scss */
+/* line 68, ../sass/objects/_text-box.scss */
 .small-i span {
   color: #65666b;
   font-size: .7em;
@@ -847,13 +851,13 @@ header a {
   right: 0;
 }
 
-/* line 75, ../sass/objects/_text-box.scss */
+/* line 79, ../sass/objects/_text-box.scss */
 .small-note p {
   width: 90%;
   font-size: .8em;
   vertical-align: top;
 }
-/* line 81, ../sass/objects/_text-box.scss */
+/* line 85, ../sass/objects/_text-box.scss */
 .small-note span {
   font-size: .8em;
   padding-right: .3em;
@@ -861,15 +865,15 @@ header a {
 }
 
 @media only screen and (max-width: 49.92857em) {
-  /* line 89, ../sass/objects/_text-box.scss */
+  /* line 93, ../sass/objects/_text-box.scss */
   .text-box, .normal-table {
     padding: 1em;
   }
-  /* line 92, ../sass/objects/_text-box.scss */
+  /* line 96, ../sass/objects/_text-box.scss */
   .text-box .pl, .normal-table .pl {
     padding-left: 0;
   }
-  /* line 96, ../sass/objects/_text-box.scss */
+  /* line 100, ../sass/objects/_text-box.scss */
   .text-box .map, .normal-table .map {
     display: block;
     margin: 0 auto;

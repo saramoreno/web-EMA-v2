@@ -998,7 +998,7 @@ header a {
   position: relative;
 }
 /* line 21, ../sass/objects/_faq.scss */
-.text-box .faq span, .normal-table .faq span {
+.text-box .faq span.fa, .normal-table .faq span.fa {
   font-size: 1.5em;
   padding-left: .3em;
   position: absolute;
@@ -1006,15 +1006,23 @@ header a {
   left: 0;
 }
 /* line 29, ../sass/objects/_faq.scss */
+.text-box .faq span.more-info, .normal-table .faq span.more-info {
+  position: relative;
+  top: 1.1em;
+  left: .2em;
+}
+/* line 35, ../sass/objects/_faq.scss */
 .text-box .faq p, .normal-table .faq p {
   padding-left: 2.7em;
   color: #98999e;
+  font-size: 14px;
+  font-size: 1rem;
 }
-/* line 33, ../sass/objects/_faq.scss */
+/* line 40, ../sass/objects/_faq.scss */
 .text-box .faq p a, .normal-table .faq p a {
   color: #98999e;
 }
-/* line 36, ../sass/objects/_faq.scss */
+/* line 43, ../sass/objects/_faq.scss */
 .text-box .faq p a:hover, .normal-table .faq p a:hover {
   text-decoration: underline;
 }

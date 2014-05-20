@@ -603,12 +603,118 @@ table {
 }
 
 /*------------------------------------------*\
-    HERO
+    Buttons
 \*------------------------------------------*/
-/* line 5, ../sass/objects/_hero.scss */
-#hero-unit {
+/* line 5, ../sass/objects/_buttons.scss */
+.btn {
+  padding: .8em;
+  background-color: #00a55b;
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid #00723f;
+  outline: none;
+  display: inline-block;
+  margin-bottom: .4em;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+}
+/* line 15, ../sass/objects/_buttons.scss */
+.btn:hover {
+  opacity: .8;
+}
+/* line 21, ../sass/objects/_buttons.scss */
+.btn a, .btn i {
+  color: #fff;
+}
+
+/* line 26, ../sass/objects/_buttons.scss */
+.btn-group {
   width: 100%;
-  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*------------------------------------------*\
+    Dropdown menu
+\*------------------------------------------*/
+/* line 5, ../sass/objects/_dropdown-menu.scss */
+#dropdown-menu {
+  display: none;
+}
+/* line 8, ../sass/objects/_dropdown-menu.scss */
+#dropdown-menu ul {
+  text-align: left;
+}
+/* line 12, ../sass/objects/_dropdown-menu.scss */
+#dropdown-menu li {
+  padding: .6rem 0;
+  border-bottom: 1px solid #009653;
+}
+/* line 16, ../sass/objects/_dropdown-menu.scss */
+#dropdown-menu li:last-child {
+  border: none;
+}
+/* line 21, ../sass/objects/_dropdown-menu.scss */
+#dropdown-menu a {
+  width: 100%;
+  padding: .6rem;
+  display: block;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+/* line 29, ../sass/objects/_dropdown-menu.scss */
+#dropdown-menu a:hover {
+  background-color: #00af61;
+}
+
+/*------------------------------------------*\
+    FAQS (QUESTION AND ANSWER)
+\*------------------------------------------*/
+/* line 7, ../sass/objects/_faq.scss */
+.text-box .faq h3, .normal-table .faq h3 {
+  padding-bottom: .5em;
+  color: #1b1b1c;
+  padding-left: 2em;
+}
+/* line 12, ../sass/objects/_faq.scss */
+.text-box .faq h3.sm, .normal-table .faq h3.sm {
+  font-size: 1.1em;
+}
+/* line 17, ../sass/objects/_faq.scss */
+.text-box .faq .heading, .normal-table .faq .heading {
+  position: relative;
+}
+/* line 21, ../sass/objects/_faq.scss */
+.text-box .faq span.fa, .normal-table .faq span.fa {
+  font-size: 1.5em;
+  padding-left: .3em;
+  position: absolute;
+  top: .2em;
+  left: 0;
+}
+/* line 29, ../sass/objects/_faq.scss */
+.text-box .faq span.more-info, .normal-table .faq span.more-info {
+  position: relative;
+  top: 1.1em;
+  left: .2em;
+}
+/* line 35, ../sass/objects/_faq.scss */
+.text-box .faq p, .normal-table .faq p {
+  padding-left: 2.7em;
+  color: #98999e;
+  font-size: 14px;
+  font-size: 1rem;
+}
+/* line 40, ../sass/objects/_faq.scss */
+.text-box .faq p a, .normal-table .faq p a {
+  color: #98999e;
+}
+/* line 43, ../sass/objects/_faq.scss */
+.text-box .faq p a:hover, .normal-table .faq p a:hover {
+  text-decoration: underline;
 }
 
 /*------------------------------------------*\
@@ -771,6 +877,46 @@ header a {
 }
 
 /*------------------------------------------*\
+    HERO
+\*------------------------------------------*/
+/* line 5, ../sass/objects/_hero.scss */
+#hero-unit {
+  width: 100%;
+  overflow: hidden;
+}
+
+/*------------------------------------------*\
+    navigation
+\*------------------------------------------*/
+/* line 6, ../sass/objects/_nav.scss */
+.main-nav li {
+  display: inline-block;
+}
+
+/*------------------------------------------*\
+    TABLES
+\*------------------------------------------*/
+/* line 5, ../sass/objects/_tables.scss */
+.normal-table {
+  width: 100%;
+  margin: 2rem 0;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+}
+/* line 13, ../sass/objects/_tables.scss */
+.normal-table tr, .normal-table td, .normal-table th {
+  padding: .7em;
+}
+/* line 18, ../sass/objects/_tables.scss */
+.normal-table thead {
+  background: #00a55b;
+  color: #fff;
+}
+
+/*------------------------------------------*\
     text box
 \*------------------------------------------*/
 /* line 5, ../sass/objects/_text-box.scss */
@@ -880,149 +1026,4 @@ header a {
     text-align: center;
     width: 100%;
   }
-}
-/*------------------------------------------*\
-    TABLES
-\*------------------------------------------*/
-/* line 5, ../sass/objects/_tables.scss */
-.normal-table {
-  width: 100%;
-  margin: 2rem 0;
-  border: 1px solid #ccc;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */
-}
-/* line 13, ../sass/objects/_tables.scss */
-.normal-table tr, .normal-table td, .normal-table th {
-  padding: .7em;
-}
-/* line 18, ../sass/objects/_tables.scss */
-.normal-table thead {
-  background: #00a55b;
-  color: #fff;
-}
-
-/*------------------------------------------*\
-    Buttons
-\*------------------------------------------*/
-/* line 5, ../sass/objects/_buttons.scss */
-.btn {
-  padding: .8em;
-  background-color: #00a55b;
-  color: #fff;
-  border: none;
-  border-bottom: 2px solid #00723f;
-  outline: none;
-  display: inline-block;
-  margin-bottom: .4em;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */
-}
-/* line 15, ../sass/objects/_buttons.scss */
-.btn:hover {
-  opacity: .8;
-}
-/* line 21, ../sass/objects/_buttons.scss */
-.btn a, .btn i {
-  color: #fff;
-}
-
-/* line 26, ../sass/objects/_buttons.scss */
-.btn-group {
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-}
-
-/*------------------------------------------*\
-    Dropdown menu
-\*------------------------------------------*/
-/* line 5, ../sass/objects/_dropdown-menu.scss */
-#dropdown-menu {
-  display: none;
-}
-/* line 8, ../sass/objects/_dropdown-menu.scss */
-#dropdown-menu ul {
-  text-align: left;
-}
-/* line 12, ../sass/objects/_dropdown-menu.scss */
-#dropdown-menu li {
-  padding: .6rem 0;
-  border-bottom: 1px solid #009653;
-}
-/* line 16, ../sass/objects/_dropdown-menu.scss */
-#dropdown-menu li:last-child {
-  border: none;
-}
-/* line 21, ../sass/objects/_dropdown-menu.scss */
-#dropdown-menu a {
-  width: 100%;
-  padding: .6rem;
-  display: block;
-  font-size: 1em;
-  text-transform: uppercase;
-  font-weight: 400;
-}
-/* line 29, ../sass/objects/_dropdown-menu.scss */
-#dropdown-menu a:hover {
-  background-color: #00af61;
-}
-
-/*------------------------------------------*\
-    navigation
-\*------------------------------------------*/
-/* line 6, ../sass/objects/_nav.scss */
-.main-nav li {
-  display: inline-block;
-}
-
-/*------------------------------------------*\
-    FAQS (QUESTION AND ANSWER)
-\*------------------------------------------*/
-/* line 7, ../sass/objects/_faq.scss */
-.text-box .faq h3, .normal-table .faq h3 {
-  padding-bottom: .5em;
-  color: #1b1b1c;
-  padding-left: 2em;
-}
-/* line 12, ../sass/objects/_faq.scss */
-.text-box .faq h3.sm, .normal-table .faq h3.sm {
-  font-size: 1.1em;
-}
-/* line 17, ../sass/objects/_faq.scss */
-.text-box .faq .heading, .normal-table .faq .heading {
-  position: relative;
-}
-/* line 21, ../sass/objects/_faq.scss */
-.text-box .faq span.fa, .normal-table .faq span.fa {
-  font-size: 1.5em;
-  padding-left: .3em;
-  position: absolute;
-  top: .2em;
-  left: 0;
-}
-/* line 29, ../sass/objects/_faq.scss */
-.text-box .faq span.more-info, .normal-table .faq span.more-info {
-  position: relative;
-  top: 1.1em;
-  left: .2em;
-}
-/* line 35, ../sass/objects/_faq.scss */
-.text-box .faq p, .normal-table .faq p {
-  padding-left: 2.7em;
-  color: #98999e;
-  font-size: 14px;
-  font-size: 1rem;
-}
-/* line 40, ../sass/objects/_faq.scss */
-.text-box .faq p a, .normal-table .faq p a {
-  color: #98999e;
-}
-/* line 43, ../sass/objects/_faq.scss */
-.text-box .faq p a:hover, .normal-table .faq p a:hover {
-  text-decoration: underline;
 }

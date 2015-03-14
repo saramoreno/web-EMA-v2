@@ -248,10 +248,15 @@ h4, .delta {
   font-size: 18px;
   font-size: 1.28571rem; }
 
+.hero-heading {
+  font-size: 2.5em;
+  font-weight: 200;
+  margin: 30px 0px 30px 0px; }
+
 .big-heading {
   font-size: 2em;
   font-weight: 200;
-  margin: 1.5em 0 1.5em 0; }
+  margin: 30px 0px 30px 0px; }
 
 .normal-heading {
   font-size: 1.875em;

@@ -699,14 +699,14 @@ header {
   border-radius: 5px;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
-  padding: 1.25em;
+  padding: 1.8em;
   margin: .7rem 0;
   background: #fff;
   -webkit-box-shadow: 1px 2px 2px #e7e7e8;
   -moz-box-shadow: 1px 2px 2px #e7e7e8;
   box-shadow: 1px 2px 2px #e7e7e8; }
   .text-box p, .normal-table p {
-    color: #8b8c92; }
+    color: #98999e; }
   .text-box .pl, .normal-table .pl {
     padding: 0 0 1.25rem 1.7em; }
   .text-box .no-top, .normal-table .no-top {

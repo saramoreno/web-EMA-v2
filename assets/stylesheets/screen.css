@@ -275,7 +275,7 @@ h4, .delta {
   padding: .7em 0;
   height: auto;
   min-height: 100%;
-  max-width: 1260px; }
+  max-width: 1100px; }
 
 .main-content {
   clear: both; }
@@ -446,6 +446,9 @@ table {
       display: block;
       width: 80%;
       margin: 10px auto; } }
+
+.btn-download {
+  margin: 30px 0px 20px 0px; }
 
 /*------------------------------------------*\
     Dropdown menu
@@ -677,7 +680,7 @@ header {
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */ }
   .normal-table tr, .normal-table td, .normal-table th {
-    padding: .7em; }
+    padding: 1em; }
   .normal-table thead {
     background: #00A55b;
     color: #fff; }
@@ -697,6 +700,8 @@ header {
   -webkit-box-shadow: 1px 2px 2px #e7e7e8;
   -moz-box-shadow: 1px 2px 2px #e7e7e8;
   box-shadow: 1px 2px 2px #e7e7e8; }
+  .text-box p, .normal-table p {
+    color: #8b8c92; }
   .text-box .pl, .normal-table .pl {
     padding: 0 0 1.25rem 1.7em; }
   .text-box .no-top, .normal-table .no-top {

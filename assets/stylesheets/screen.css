@@ -205,7 +205,7 @@ input[type="radio"] {
 /*------------------------------------*\
     $GRID
 \*------------------------------------*/
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 61.42857em) {
   .one-whole {
     width: 100%; }
 
@@ -262,7 +262,7 @@ h4, .delta {
   font-weight: 400;
   margin-bottom: 1em; }
 
-@media only screen and (max-width: 49.92857em) {
+@media only screen and (max-width: 61.35714em) {
   .big-heading {
     font-size: 1.6em; } }
 /*------------------------------------*\
@@ -274,7 +274,8 @@ h4, .delta {
   overflow: hidden;
   padding: .7em 0;
   height: auto;
-  min-height: 100%; }
+  min-height: 100%;
+  max-width: 1260px; }
 
 .main-content {
   clear: both; }
@@ -309,7 +310,7 @@ section, article {
 /* Grid Item */
 .gi {
   letter-spacing: normal; }
-  @media only screen and (min-width: 50em) {
+  @media only screen and (min-width: 61.42857em) {
     .gi {
       display: inline-block;
       vertical-align: top; } }
@@ -428,6 +429,9 @@ table {
   border-radius: 3px;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */ }
+  @media only screen and (max-width: 61.35714em) {
+    .btn {
+      width: 80%; } }
   .btn:hover {
     opacity: .8; }
   .btn a, .btn i {
@@ -437,6 +441,11 @@ table {
   width: 100%;
   text-align: center;
   margin: 0 auto; }
+  @media only screen and (max-width: 61.35714em) {
+    .btn-group .btn {
+      display: block;
+      width: 80%;
+      margin: 10px auto; } }
 
 /*------------------------------------------*\
     Dropdown menu
@@ -538,7 +547,7 @@ table {
     .main-footer .complementary-info p, .main-footer .complementary-info a {
       font-size: .8em; }
 
-@media only screen and (max-width: 49.92857em) {
+@media only screen and (max-width: 61.35714em) {
   * {
     margin: 0; }
 
@@ -571,7 +580,7 @@ table {
       text-align: center; }
       .main-footer .complementary-info li {
         text-align: center; } }
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 61.42857em) {
   /* STICKY FOOTER */
   * {
     margin: 0; }
@@ -634,7 +643,7 @@ header {
     right: 0;
     font-size: 1.15em; }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 860px) {
   .main-nav {
     display: none; }
 
@@ -737,7 +746,7 @@ header {
   padding-right: .3em;
   vertical-align: top; }
 
-@media only screen and (max-width: 49.92857em) {
+@media only screen and (max-width: 61.35714em) {
   .text-box, .normal-table {
     padding: 1em; }
     .text-box .pl, .normal-table .pl {

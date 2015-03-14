@@ -11,6 +11,9 @@
   outline: none;
   display: inline-block;
   margin-bottom: .4em;
+  @include media-query(palm) {
+    width: 80%;
+  }
 
   &:hover {
     opacity: .8;
@@ -27,5 +30,12 @@
   width: 100%;
   text-align: center;
   margin: 0 auto;
+  @include media-query(palm) {
+    .btn {
+      display: block;
+      width: 80%;
+      margin: 10px auto;
+    }
+  }
 }
 

@@ -6,10 +6,11 @@
 .wrapper{
   width: 90%;
   margin: 0 auto;
-  overflow:hidden;
+  overflow: hidden;
   padding: .7rem 0;
   height: auto;
   min-height: 100%;
+  max-width: 1200px;
 }
 
 .main-content {

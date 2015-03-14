@@ -503,20 +503,25 @@ table {
   -webkit-box-shadow: 1px 0 1px #65666B;
   -moz-box-shadow: 1px 0 1px #65666B;
   box-shadow: 1px 0 1px #65666B; }
-  .main-footer img {
-    min-width: 100%; }
   .main-footer a {
     color: #65666B; }
     .main-footer a:hover {
       text-decoration: underline; }
   .main-footer .logo-uam {
     width: 20%;
-    vertical-align: middle; }
+    vertical-align: middle;
+    display: inline-block; }
+    .main-footer .logo-uam img {
+      width: 160px;
+      height: auto; }
   .main-footer .complementary-info {
-    width: 80%;
+    width: 79%;
     padding: 1.25em;
     vertical-align: middle;
-    text-align: center; }
+    text-align: right;
+    display: inline-block; }
+    .main-footer .complementary-info h5 {
+      font-size: 18px; }
     .main-footer .complementary-info span {
       color: #00A55b;
       padding-right: .2em;
@@ -534,34 +539,57 @@ table {
       font-size: .8em; }
 
 @media only screen and (max-width: 49.92857em) {
-  footer
-  .logo-uam {
-    display: block;
-    margin: 0 auto; }
+  * {
+    margin: 0; }
 
-  ul.complementary-info {
-    display: block;
-    width: 100%;
-    padding: .7em; } }
-/* STICKY FOOTER */
-* {
-  margin: 0; }
+  html, body {
+    height: 100%; }
 
-html, body {
-  height: 100%; }
+  .main-content {
+    min-height: 100%;
+    height: auto !important;
+    /* This line and the next line are not necessary unless you need IE6 support */
+    height: 100%;
+    margin: 0 auto -300px;
+    /* the bottom margin is the negative value of the footer's height */ }
 
-.main-content {
-  min-height: 100%;
-  height: auto !important;
-  /* This line and the next line are not necessary unless you need IE6 support */
-  height: 100%;
-  margin: 0 auto -200px;
-  /* the bottom margin is the negative value of the footer's height */ }
+  .main-footer, .push-footer {
+    height: 270px;
+    /* .push must be the same height as .footer */ }
 
-.main-footer, .push-footer {
-  height: 172px;
-  /* .push must be the same height as .footer */ }
+  .main-footer {
+    text-align: center; }
+    .main-footer .logo-uam {
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin: 0 auto 10px auto; }
+    .main-footer .complementary-info {
+      display: block;
+      width: 100%;
+      padding: .7em;
+      text-align: center; }
+      .main-footer .complementary-info li {
+        text-align: center; } }
+@media only screen and (min-width: 50em) {
+  /* STICKY FOOTER */
+  * {
+    margin: 0; }
 
+  html, body {
+    height: 100%; }
+
+  .main-content {
+    min-height: 100%;
+    height: auto !important;
+    /* This line and the next line are not necessary unless you need IE6 support */
+    height: 100%;
+    margin: 0 auto -200px;
+    /* the bottom margin is the negative value of the footer's height */ }
+
+  .main-footer, .push-footer {
+    height: 172px;
+    /* .push must be the same height as .footer */ } }
 /*------------------------------------------*\
     HEADER
 \*------------------------------------------*/

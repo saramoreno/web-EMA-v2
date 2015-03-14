@@ -9,9 +9,9 @@
   margin-top: 2em;
   padding: 2em 0;
 
-  img {
-    min-width: 100%;
-  } 
+  // img {
+  //   min-width: 100%;
+  // } 
 
    @include box-shadow(1px 0 1px $text);
 
@@ -26,13 +26,22 @@
   .logo-uam {
     width: 20%;
     vertical-align: middle;
+    display: inline-block;
+    img {
+      width: 160px;
+      height: auto;
+    }
   }
 
   .complementary-info {
-    width: 80%;
+    width: 79%;
     padding: 1.25em;
     vertical-align: middle;
-    text-align: center;
+    text-align: right;
+    display: inline-block;
+    h5 {
+      font-size: 18px;
+    }
 
     span {
       color: $secondaryBg;
@@ -62,33 +71,56 @@
 }
 
 @include media-query(palm) {
-  footer
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  .main-content {
+    min-height: 100%;
+    height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+    height: 100%;
+    margin: 0 auto -300px; /* the bottom margin is the negative value of the footer's height */
+  }
+  .main-footer, .push-footer {
+    height: 270px; /* .push must be the same height as .footer */
+  }
+  .main-footer {
+    text-align: center;
     .logo-uam {
-      display:block;
-      margin: 0 auto;
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin: 0 auto 10px auto;
     }
-
-    ul.complementary-info {
-      display:block;
+    .complementary-info {
+      display: block;
       width: 100%;
       padding: .7em;
+      text-align: center;
+      li {
+        text-align: center;
+      }
     }
+  }
 }
 
-/* STICKY FOOTER */
-
-* {
-  margin: 0;
-}
-html, body {
-  height: 100%;
-}
-.main-content {
-  min-height: 100%;
-  height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
-  height: 100%;
-  margin: 0 auto -200px; /* the bottom margin is the negative value of the footer's height */
-}
-.main-footer, .push-footer {
-  height: 172px; /* .push must be the same height as .footer */
+@include media-query(lap-and-up) {
+  /* STICKY FOOTER */
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  .main-content {
+    min-height: 100%;
+    height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+    height: 100%;
+    margin: 0 auto -200px; /* the bottom margin is the negative value of the footer's height */
+  }
+  .main-footer, .push-footer {
+    height: 172px; /* .push must be the same height as .footer */
+  }
 }
